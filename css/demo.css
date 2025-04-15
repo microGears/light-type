@@ -1,0 +1,18 @@
+html, body, h1, h2, h3, h4, h5, h6, form, fieldset{ border :0; margin :0; padding :0; }
+img{ max-width :99%; }
+select+select,input+input,textarea{ margin-top :.5em; }
+.lt-header, .lt-body, .lt-footer{ background :none; border :0; margin :0; outline :0; padding :0; text-align :left; text-decoration :none; box-sizing :border-box; }
+.lt-header{ display :block; background-color :var(--lt-color-bg0); color :#f0f0f0; }
+.lt-body{ display :block; padding-top :48px; margin-bottom :32px; }
+.lt-footer{ display :table-footer-group; }
+.lt-block + .lt-block{ margin-top :2em; }
+.lt-row.top{ margin-bottom :1.2em; margin-top :.3em; }
+.lt-row.bottom{ margin-top :1.2em; }
+.lt-row + .lt-row{ margin-top :1em; }
+.lt-grid.demo .lt-box {background-color: var(--lt-color-grad-150); border-radius: 3px;}
+.lt-grid .lt-row + .lt-row{ margin-top :0em; }
+.lt-glyph-block{ display :inline-block; width :120px; margin :10px; padding:0px; text-align :center; vertical-align :top; color :var(--lt-color-text); }
+.lt-glyph-block .class-name {font-size:12px;font-family:var(--lt-font-family-base); margin-top: .7em;}
+.lt-section {font-size: 1.8rem; color: var(--lt-color-secondary);}
+#nav a { color :#f0f0f0; text-decoration :none; }
+#nav a:hover { color :var(--lt-color-secondary); text-decoration :none; }

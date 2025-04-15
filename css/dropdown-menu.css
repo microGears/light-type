@@ -1,0 +1,47 @@
+.lt-dropdown-wrapper{display:block;margin:0 auto;position:relative;width:100%;z-index:9999}
+.lt-dropdown-wrapper .lt-dropdown-menu{display:table;height:auto;list-style:none;margin:0 auto;padding:0;width:100%;background-color:var(--lt-color-bg2);border:1px solid transparent}
+.lt-dropdown-menu li{float:left;text-align:center;position:relative;border:1px solid transparent;margin:0 .75em 0 .005em}
+.lt-dropdown-menu li span{color:var(--lt-color-text)}
+.lt-dropdown-menu li:hover{background-color:var(--lt-color-bg7);border:1px solid transparent;z-index:10000}
+.lt-dropdown-menu>li:hover{border:1px solid var(--lt-color-grad-400);border-bottom-color:transparent}
+.lt-dropdown-menu li a,.lt-dropdown-menu li span{color:var(--lt-color-text);display:block;outline:0;text-decoration:none;cursor:pointer;padding:3px}
+.lt-dropdown-menu>li>a,.lt-dropdown-menu>li>span{color:var(--lt-color-text);line-height:2em}
+.lt-dropdown-menu>li:hover>a,.lt-dropdown-menu>li:hover>span:first-child{position:relative;text-shadow:none;z-index:+10;background-color:var(--lt-color-bg7)}
+.lt-dropdown-menu li:hover>a,.lt-dropdown-menu li:hover>span{color:var(--lt-hover-color)}
+.lt-dropdown-menu li .shed:after{position:relative;content:"";border-width:5px;border-style:solid;border-color:var(--lt-color-text) transparent transparent transparent;margin-left:5px;top:.9em}
+.lt-dropdown-menu li:hover .shed:after{border-color:#ff5113 transparent transparent transparent}
+.lt-box .nodes .node:after{position:absolute;right:0;top:35%;content:"";border-width:4px;border-style:solid;border-color:transparent transparent transparent var(--lt-color-text)}
+.lt-box .nodes .node:hover:after{border-color:transparent transparent transparent #ff5113}
+.lt-box .nodes .active{background-color:var(--lt-hover-nth-bg)}
+.rtl .lt-box .nodes .node:after{border:none}
+.rtl .lt-box .nodes .node:before{position:absolute;left:-2px;top:30%;content:"";border-width:4px;border-style:solid;border-color:transparent var(--lt-color-text) transparent transparent}
+.rtl .lt-box .nodes .node:hover:before{border-color:transparent #ff5113 transparent transparent}
+.lt-dropdown-menu .lt-grid{margin:4px 0 4px 0;position:absolute;text-align:left;visibility:hidden;left:-999em}
+.lt-dropdown-menu .lt-grid,.lt-dropdown-menu .nodes li ul{background-color:var(--lt-color-bg7);border:1px solid var(--lt-color-grad-400)}
+.lt-dropdown-menu li:hover>.lt-grid{left:-1px;margin-top:-1px;visibility:visible}
+.lt-dropdown-menu li.rtl{float:right;right:0;margin-right:0}
+.lt-dropdown-menu li.rtl:hover .lt-grid{left:auto;right:-1px;margin-top:-1px}
+.lt-dropdown-menu .lt-box{width:100%;padding:0}
+.lt-dropdown-menu .lt-dropdown-column-left{float:left;margin:0}
+.lt-dropdown-menu .lt-dropdown-column-right{float:right;margin:0 0 0 -5px}
+.lt-dropdown-menu .lt-dropdown-column-right a,.lt-dropdown-menu .lt-dropdown-column-right span{text-align:right}
+.lt-dropdown-menu .lt-dropdown-column .lt-dropdown-column-header,.lt-dropdown-menu .lt-dropdown-column-full .lt-dropdown-column-header{color:var(--lt-color-grad-600);border-bottom:1px solid var(--lt-color-grad-400);clear:both;display:block;padding:5px;cursor:default}
+.lt-dropdown-menu li.wild{position:inherit!important}
+.lt-dropdown-menu li.wild .lt-grid{width:100%}
+.lt-dropdown-menu li.wild:hover .lt-grid{margin:-1px 1px}
+.lt-dropdown-menu>li>a,.lt-dropdown-menu>li>span{text-align:left;padding:4px 10px}
+.lt-dropdown-menu a,.lt-dropdown-menu p,.lt-dropdown-menu span{padding:2px 8px;margin:0}
+.lt-dropdown-menu li:hover div a{border:none;padding:0;text-decoration:none}
+.lt-dropdown-menu li ul{list-style:none;margin:0 0 12px 0;padding:0}
+.lt-dropdown-menu li ul li{float:left;margin:0;padding:0;position:relative;text-align:left;min-width:160px}
+.lt-dropdown-menu li ul li a,.lt-dropdown-menu li ul li span{padding:0}
+.lt-dropdown-menu li ul li:hover{background-color:var(--lt-hover-bg)}
+.lt-dropdown-menu .nodes,.lt-dropdown-menu .nodes ul{list-style:none;margin:0;padding:0}
+.lt-dropdown-menu li:hover .nodes a{display:block}
+.lt-dropdown-menu .nodes a,.lt-dropdown-menu .nodes span:first-child{display:block}
+.lt-dropdown-menu .nodes li{float:left;padding:2px 8px;line-height:1.5em}
+.lt-dropdown-menu .nodes li ul{visibility:hidden;padding:6px;position:absolute;top:0}
+.lt-dropdown-menu .nodes li:hover>ul{margin-left:150px;visibility:visible;z-index:+100}
+.lt-dropdown-menu .rtl .nodes li:hover>ul{margin-left:-150px;right:100%;visibility:visible;z-index:+100}
+.lt-dropdown-menu .glifs ul li>a,.lt-dropdown-menu .glifs ul li>span{padding-left:20px}
+.lt-dropdown-menu .rtl .glifs ul li>a,.lt-dropdown-menu .rtl .glifs ul li>span{padding-left:0;padding-right:20px}

@@ -1,0 +1,111 @@
+:root{
+    /* Цветовая палитра */
+
+    --lt-color-text:#343A40; /* Цвет основного текста */
+    --lt-color-text-light :#F8F9FA; /* Цвет текста на темном фоне */
+
+    --lt-color-link:#2d57d2; /* Цвет ссылок */
+    --lt-color-link-hover:#4B6ED9; /* Цвет ссылок при наведении */
+    --lt-color-link-active:#4B6ED9; /* Цвет ссылок при нажатии */
+    --lt-color-link-visited:#2d57d2; /* Цвет посещенных ссылок */
+    
+    --lt-color-primary: #3b82f6;
+    --lt-color-secondary: #0084ce;
+    --lt-color-danger: #ff5e00;
+    --lt-color-success: #22c55e;
+    --lt-color-warning: #f59e0b;
+    --lt-color-error: #ef4444;
+
+    --lt-color-bg0: #151B23;
+    --lt-color-bg1:#ffffff;    
+    --lt-color-bg2:#f2f2f2;
+    --lt-color-bg3:#f5f5f5;
+    --lt-color-bg4:#f8f8f8;
+    --lt-color-bg5:#dfebd5;
+    --lt-color-bg6:#dddddd;
+    --lt-color-bg7:#ebebeb;
+    --lt-color-bg8:#dedede;
+
+    --lt-color-border1:#eeeeee;
+    --lt-color-border2:#dddddd;
+    --lt-color-border3:#cccccc;
+    
+    --lt-color-grad-100: #F8F9FA;
+    --lt-color-grad-150: #F1F3F5;
+    --lt-color-grad-200: #E9ECEF;
+    --lt-color-grad-250: #D7DCE2;
+    --lt-color-grad-300: #DEE2E6;
+    --lt-color-grad-400: #CED4DA;
+    --lt-color-grad-500: #ADB5BD;
+    --lt-color-grad-600: #6C757D;
+    --lt-color-grad-700: #495057;
+    --lt-color-grad-800: #343A40;
+    --lt-color-grad-900: #212529;
+    
+    --lt-hover-bg: #D5E5FD;
+    --lt-hover-border: #C7DCFC;
+    --lt-hover-color: #343A40;
+    --lt-hover-nth-bg: #C7DCFC;
+    --lt-hover-nth-border: #B9D3FC;
+
+    /* Типографика */
+    --lt-font-family-base: Poppins,OpenSans,'Helvetica Neue',Helvetica,sans-serif;
+    --lt-font-family-console: Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier;
+    --lt-font-size-base: 1.35em;
+    --lt-font-weight-tiny: 200;
+    --lt-font-weight-normal: 400;
+    --lt-font-weight-medium: 500;
+    --lt-font-weight-bold: 700;
+    --lt-line-height-base: 1.2;
+
+    --border-radius: 3px; /* Радиус скругления */
+
+    --lt-scroll-track: #f0f0f0;
+    --lt-scroll-thumb: #c1c1c1;
+    --lt-scroll-thumb-hover: #a0a0a0;
+  
+    --lt-scroll-up-icon: url("data:image/svg+xml;utf8,<svg fill='gray' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 14l5-5 5 5z'/></svg>");
+    --lt-scroll-down-icon: url("data:image/svg+xml;utf8,<svg fill='gray' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 10l5 5 5-5z'/></svg>");
+}
+
+* {
+    scrollbar-width: thin; /* Firefox */
+    scrollbar-color: var(--lt-scroll-thumb) var(--lt-scroll-track);
+  }
+  
+  *::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background-color: var(--lt-scroll-track);
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--lt-scroll-thumb);
+    border-radius: 7px;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: var(--lt-scroll-thumb-hover);
+  }
+  
+  *::-webkit-scrollbar-button {
+    height: 16px;
+    background-color: var(--lt-scroll-track);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    border: none;
+  }
+  
+  *::-webkit-scrollbar-button:single-button:vertical:decrement {
+    background-image: var(--lt-scroll-up-icon);
+  }
+  
+  *::-webkit-scrollbar-button:single-button:vertical:increment {
+    background-image: var(--lt-scroll-down-icon);
+  }
+  

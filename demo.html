@@ -1,0 +1,2822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LightType</title>
+    <link href="css/theme-light.css" rel="stylesheet">
+    <link href="css/theme-dark.css" rel="stylesheet">
+    <link href="css/dropdown-menu.css" rel="stylesheet">
+    <link href="css/layouts.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="css/forms.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
+    <link href="css/tooltips.css" rel="stylesheet">
+    <link href="css/color-styles.css" rel="stylesheet">
+
+    <!-- prettify -->
+    <link href="js/prettify/src/prettify.css" rel="stylesheet">
+    <script src="js/prettify/src/prettify.js"></script>
+
+    <!-- demo -->
+    <link href="css/demo.css" rel="stylesheet">
+
+    <script src="js/demo.js"></script>
+    <script src="js/scrollTo.js"></script>
+    <script src="js/theme-switcher.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="lt h100r">
+        <div class="lt-header lt-fixed">
+            <div class="lt-block">
+                <div class="lt-grid lt-grid-cols-12">
+                    <div class="lt-box lt-grid-col-span-9 text-valign-middle text-halign-left">
+                        <ul class="lt-nav" id="nav">
+                            <li><a href="#typography">Typography</a></li>
+                            <li><a href="#tabs">Tabs</a></li>
+                            <li><a href="#grids">Grids</a></li>
+                            <li><a href="#dropdown-menu">Dropdown Menu</a></li>
+                            <li><a href="#images">Images</a></li>
+                            <li><a href="#icons">Icons</a></li>
+                            <li><a href="#tooltips">Tooltips</a></li>
+                            <li><a href="#forms">Forms</a></li>
+                        </ul>
+                    </div>
+                    <div class="lt-box lt-grid-col-span-3 text-valign-middle text-halign-right">
+                        <button class="lt-button" id="lt-theme-toggle">Switch Theme</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lt-body">
+            <section id="typography">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Headers</span></div>
+                    <div class="lt-row">
+                        <h1>Header H1</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim.</p>
+                        <h2>Header H2</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim.</p>
+                        <h3>Header H3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim.</p>
+                        <h4>Header H4</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim.</p>
+                        <h5>Header H5</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim.</p>
+                        <h6>Header H6</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                            ridiculus
+                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                            massa
+                            quis enim.</p>
+                    </div>
+            
+                    <div class="lt-section"><span>Conventional, bulleted lists, and definition lists</span></div>
+                    <div class="lt-grid">
+                        <div class="lt-row rel">
+                            <div class="lt-cell-4">
+                                <div class="lt-box">
+                                    <p>Simply list <code>&lt;ul&gt;</code>:</p>
+                                    <ul>
+                                        <li>First element</li>
+                                        <li>Second element</li>
+                                        <li>Third element</li>
+                                        <li>Fourth element</li>
+                                        <li>Fifth element</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lt-cell-4">
+                                <div class="lt-box">
+                                    <p>Numbered list <code>&lt;ol&gt;</code>:</p>
+                                    <ol>
+                                        <li>First element</li>
+                                        <li>Second element</li>
+                                        <li>Third element</li>
+                                        <li>Fourth element</li>
+                                        <li>Fifth element</li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="lt-cell-4">
+                                <div class="lt-box">
+                                    <p>List of definitions <code>&lt;dl&gt;</code>:</p>
+                                    <dl>
+                                        <dt>First element, tag <code>&lt;dt&gt;</code></dt>
+                                        <dd>Second element, tag <code>&lt;dd&gt;</code></dd>
+                                        <dt>Third element</dt>
+                                        <dd>Fourth element</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+            
+                    <div class="lt-row">
+                        <div class="lt-section"><span>Line tags</span></div>
+            
+                        <table class="clear" style="width: 100%;">
+                            <tbody>
+                                <tr>
+                                    <td style="width: 40%;"><code>&lt;a href="#"&gt;...&lt;/a&gt;</code></td>
+                                    <td><a href="#">link</a></td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;i&gt;</code> и <code>&lt;em&gt;</code></td>
+                                    <td><i>italic</i> and <em>accented</em> text</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;b&gt;</code> и <code>&lt;strong&gt;</code></td>
+                                    <td><b>bold</b> and <strong>accented</strong> text</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;mark&gt;</code></td>
+                                    <td>
+                                        <mark>selected</mark>
+                                        text
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code> &lt;small&gt;</code></td>
+                                    <td>
+                                        <small>small</small>
+                                        text
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;abbr title="..."&gt;...&lt;/abbr&gt;</code></td>
+                                    <td>It is simply <abbr
+                                            title="Lorem ipsum dolor sit amet, consectetuer adipiscing elit">spam</abbr>
+                                        text</td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;cite&gt;</code> and <code>&lt;q&gt;</code></td>
+                                    <td><cite>citation</cite> and <q>quotation dedicated</q></td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;code&gt;</code> and <code>&lt;dfn&gt;</code></td>
+                                    <td><code>source code</code> and <dfn>new definition</dfn></td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;kbd&gt;</code></td>
+                                    <td>«hot» key <kbd>&lt;Ctrl&gt;+&lt;S&gt;</kbd></td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;var&gt;</code> and <code>&lt;samp&gt;</code></td>
+                                    <td>var name <var>variableName</var> and <samp>console output</samp></td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;ins&gt;</code> and <code>&lt;del&gt;</code></td>
+                                    <td>
+                                        <ins>added text</ins>
+                                        and
+                                        <del>deleted text</del>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><code>&lt;sub&gt;</code> and <code>&lt;sup&gt;</code></td>
+                                    <td><sub>sub</sub> text and <sup>sup</sup> text</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            
+                    <div class="lt-row">
+                        <div class="lt-section"><span>Block tags</span></div>
+                        <p>Tag <code>&lt;blockquote&gt;</code> for long citations:</p>
+                        <blockquote>
+                            <p><strong>Citation </strong> — verbatim excerpt from some of the text. It is important that
+                                the
+                                quoted text is uniquely identified as inserted.</p>
+            
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec,
+                                pellentesque
+                                eu,pretium quis, sem. Nulla consequat massa quis enim.</p>
+            
+                            <p><cite>https://wikipedia.org/wiki/citation</cite></p>
+                        </blockquote>
+                        <p>Tag <code>&lt;hr&gt;</code>:</p>
+                        <hr>
+                        <p>Tag <code>&lt;pre&gt;</code>:</p>
+                        <pre>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor., tag &lt;pre&gt;...&lt;/pre&gt;</pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <div class="lt-section"><span>Tables</span></div>
+                        <p><b>Default table style</b></p>
+                        <table class="lt-table hover zebra">
+                            <thead>
+                                <tr class="rel">
+                                    <th class="lt-box lt-c">ID</th>
+                                    <th class="lt-box lt-cell-3">Date</th>
+                                    <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                                    <th class="lt-box">Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td class="lt-c">1</td>
+                                    <td>April 13, 2016, 6:59 pm</td>
+                                    <td class="lt-r nth">-3950.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">2</td>
+                                    <td>April 13, 2016, 9:29 am</td>
+                                    <td class="lt-r nth">0.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">3</td>
+                                    <td>March 2, 2016, 7:59 pm</td>
+                                    <td class="lt-r nth">-100.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">4</td>
+                                    <td>January 25, 2016, 6:42 pm</td>
+                                    <td class="lt-r nth">-3950.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">5</td>
+                                    <td>January 19, 2016, 4:30 pm</td>
+                                    <td class="lt-r nth">0.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th class="lt-box lt-c">ID</th>
+                                    <th class="lt-box">Date</th>
+                                    <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                                    <th class="lt-box">Details</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                    <table class="lt-table hover zebra">
+                        <thead>
+                        <tr class="rel">
+                            <th class="lt-box lt-c">ID</th>
+                            <th class="lt-box lt-cell-3">Date</th>
+                            <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                            <th class="lt-box">Details</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="lt-c">1</td>
+                            <td>April 13, 2016, 6:59 pm</td>
+                            <td class="lt-r nth">-3950.00</td>
+                            <td>Mutual serving</td>
+                        </tr>
+                        <!-- <tr>...</tr> -->
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <th class="lt-box lt-c">ID</th>
+                            <th class="lt-box">Date</th>
+                            <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                            <th class="lt-box">Details</th>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>Colless table</b><br>To create a table without displaying the boundaries of columns, add
+                            the
+                            class name <code>lt-no-col-border</code> to tag <code>table</code>, as bellow.</p>
+                        <table class="lt-table hover lt-no-col-border">
+                            <thead>
+                                <tr class="rel">
+                                    <th class="lt-box lt-c">ID</th>
+                                    <th class="lt-box lt-cell-3">Date</th>
+                                    <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                                    <th class="lt-box">Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td class="lt-c">1</td>
+                                    <td>April 13, 2016, 6:59 pm</td>
+                                    <td class="lt-r nth">-3950.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">2</td>
+                                    <td>April 13, 2016, 9:29 am</td>
+                                    <td class="lt-r nth">0.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">3</td>
+                                    <td>March 2, 2016, 7:59 pm</td>
+                                    <td class="lt-r nth">-100.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">4</td>
+                                    <td>January 25, 2016, 6:42 pm</td>
+                                    <td class="lt-r nth">-3950.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">5</td>
+                                    <td>January 19, 2016, 4:30 pm</td>
+                                    <td class="lt-r nth">0.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th class="lt-box lt-c">ID</th>
+                                    <th class="lt-box">Date</th>
+                                    <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                                    <th class="lt-box">Details</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                    <table class="lt-table hover lt-no-col-border">
+                        <!-- content -->
+                    </table>
+                </pre>
+                    </div>
+                    <div class="lt-row">
+                        <p><b>Rowless table</b><br>To create a table without displaying the boundaries of rows, add the
+                            class name <code>lt-no-row-border</code> to tag <code>table</code>, as bellow.</p>
+                        <table class="lt-table hover lt-no-row-border">
+                            <thead>
+                                <tr class="rel">
+                                    <th class="lt-box lt-c">ID</th>
+                                    <th class="lt-box lt-cell-3">Date</th>
+                                    <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                                    <th class="lt-box">Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="">
+                                    <td class="lt-c">1</td>
+                                    <td>April 13, 2016, 6:59 pm</td>
+                                    <td class="lt-r nth">-3950.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">2</td>
+                                    <td>April 13, 2016, 9:29 am</td>
+                                    <td class="lt-r nth">0.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">3</td>
+                                    <td>March 2, 2016, 7:59 pm</td>
+                                    <td class="lt-r nth">-100.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">4</td>
+                                    <td>January 25, 2016, 6:42 pm</td>
+                                    <td class="lt-r nth">-3950.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                                <tr class="">
+                                    <td class="lt-c">5</td>
+                                    <td>January 19, 2016, 4:30 pm</td>
+                                    <td class="lt-r nth">0.00</td>
+                                    <td>Mutual serving</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th class="lt-box lt-c">ID</th>
+                                    <th class="lt-box">Date</th>
+                                    <th class="lt-box lt-cell-2 lt-c nth">Amount / USD</th>
+                                    <th class="lt-box">Details</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                    <table class="lt-table hover lt-no-row-border">
+                        <!-- content -->
+                    </table>
+                </pre>
+                    </div>
+                </div>                
+            </section>
+            <section id="tabs">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Tabs(horz)</span></div>
+                    <div class="lt-row">
+                        <ul class="lt-tabs h256">
+                            <li>
+                                <input type="radio" name="tabs" id="tab-1" checked>
+                                <label for="tab-1">First</label>
+                                <div class="lt-tab-content">
+                                    <div class="lt-box">
+                                        <h4>Tab 1</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                            dolor.
+                                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus
+                                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                                            massa
+                                            quis enim.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs" id="tab-2">
+                                <label for="tab-2">Second</label>
+                                <div class="lt-tab-content">
+                                    <div class="lt-box">
+                                        <h4>Tab 2</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                            dolor.
+                                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus
+                                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                                            massa
+                                            quis enim.</p>
+                                            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                                ridiculus
+                                                mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                                                massa
+                                                quis enim.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <input type="radio" name="tabs" id="tab-3">
+                                <label for="tab-3">Third</label>
+                                <div class="lt-tab-content">
+                                    <div class="lt-box">
+                                        <h4>Tab 3</h4>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                            dolor.
+                                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                            ridiculus
+                                            mus. Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                                            massa
+                                            quis enim.</p>
+                                            <p>Donec quam felis, ultricies nec, pellentesque eu,pretium quis, sem. Nulla consequat
+                                                massa
+                                                quis enim.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+            
+                    </div>
+                </div>
+            </section>
+            <section id="grids">
+                <div class="lt-block">
+                    <div class="lt-section"><span>CSS Grid</span></div>
+                    <p>CSS Grid is a two-dimensional layout system that allows you to create complex layouts with ease. It uses a grid-based approach, where you can define rows and columns, and place items within that grid.</p>
+                    <div class="lt-row"></div>
+            
+                    <div class="lt-row">
+                        <b>1 column</b>
+                        <div class="lt-grid demo lt-grid-cols-1 lt-gap-2">
+                            <div class="lt-box">lt-box 1</div>
+                            <div class="lt-box">lt-box 2</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                                <div class="lt-grid lt-grid-cols-1 lt-gap-2">
+                                    <div class="lt-box">lt-box 1</div>
+                                    <div class="lt-box">lt-box 2</div>
+                                </div>
+                            </pre>
+                    </div>
+                    <div class="lt-row">
+                        <p><b>2 columns</b></p>
+                        <div class="lt-grid demo lt-grid-cols-2 lt-gap-2">
+                            <div class="lt-box">lt-box 1</div>
+                            <div class="lt-box">lt-box 2</div>
+                            <div class="lt-box h64">lt-box 3</div>
+                            <div class="lt-box">lt-box 4</div>
+                            <div class="lt-box">lt-box 5</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                                <div class="lt-grid lt-grid-cols-2 lt-gap-2">
+                                    <div class="lt-box">lt-box 1</div>
+                                    <div class="lt-box">lt-box 2</div>
+                                    <div class="lt-box h64">lt-box 3</div>
+                                    <div class="lt-box">lt-box 4</div>
+                                    <div class="lt-box">lt-box 5</div>
+                                </div>
+                            </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>3 columns</b>(Last column is stretched)</p>
+                        <div class="lt-grid demo lt-grid-cols-3 lt-gap-2" data-stretch-last>
+                            <div class="lt-box">lt-box 1</div>
+                            <div class="lt-box">lt-box 2</div>
+                            <div class="lt-box">lt-box 3</div>
+                            <div class="lt-box">lt-box 4</div>
+                            <div class="lt-box h64">lt-box 5</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                                <div class="lt-grid lt-grid-cols-3 lt-gap-2" data-stretch-last>
+                                    <div class="lt-box">lt-box 1</div>
+                                    <div class="lt-box">lt-box 2</div>
+                                    <div class="lt-box">lt-box 3</div>
+                                    <div class="lt-box">lt-box 4</div>
+                                    <div class="lt-box h64">lt-box 5</div>
+                                </div>
+                            </pre>
+                        <p>Note! To implement "stretching last" you need to use a java-script</p>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>4 columns</b></p>
+                        <div class="lt-grid demo lt-grid-cols-4 lt-gap-2">
+                            <div class="lt-box">lt-box 1</div>
+                            <div class="lt-box">lt-box 2</div>
+                            <div class="lt-box">lt-box 3</div>
+                            <div class="lt-box">lt-box 4</div>
+                            <div class="lt-box">lt-box 5</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                                <div class="lt-grid demo lt-grid-cols-4 lt-gap-2">
+                                    <div class="lt-box">lt-box 1</div>
+                                    <div class="lt-box">lt-box 2</div>
+                                    <div class="lt-box">lt-box 3</div>
+                                    <div class="lt-box">lt-box 4</div>
+                                    <div class="lt-box">lt-box 5</div>
+                                </div>  
+                            </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>12 columns(max)</b></p>
+                        <div class="lt-grid demo lt-grid-cols-12 lt-gap-2">
+                            <div class="lt-box">lt-box 1</div>
+                            <div class="lt-box">lt-box 2</div>
+                            <div class="lt-box">lt-box 3</div>
+                            <div class="lt-box">lt-box 4</div>
+                            <div class="lt-box">lt-box 5</div>
+                            <div class="lt-box">lt-box 6</div>
+                            <div class="lt-box">lt-box 7</div>
+                            <div class="lt-box">lt-box 8</div>
+                            <div class="lt-box">lt-box 9</div>
+                            <div class="lt-box">lt-box 10</div>
+                            <div class="lt-box">lt-box 11</div>
+                            <div class="lt-box">lt-box 12</div>
+                            <div class="lt-box lt-grid-col-span-3">3/12</div>
+                            <div class="lt-box lt-grid-col-span-6">6/12</div>
+                            <div class="lt-box lt-grid-col-span-3">3/12</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                                <div class="lt-grid demo lt-grid-cols-12 lt-gap-2">
+                                    <div class="lt-box">lt-box 1</div>
+                                    <div class="lt-box">lt-box 2</div>
+                                    <div class="lt-box">lt-box 3</div>
+                                    <div class="lt-box">lt-box 4</div>
+                                    <div class="lt-box">lt-box 5</div>
+                                    <div class="lt-box">lt-box 6</div>
+                                    <div class="lt-box">lt-box 7</div>
+                                    <div class="lt-box">lt-box 8</div>
+                                    <div class="lt-box">lt-box 9</div>
+                                    <div class="lt-box">lt-box 10</div>
+                                    <div class="lt-box">lt-box 11</div>
+                                    <div class="lt-box">lt-box 12</div>
+                                    <div class="lt-box lt-grid-col-span-3">3/12</div>
+                                    <div class="lt-box lt-grid-col-span-6">6/12</div>
+                                    <div class="lt-box lt-grid-col-span-3">3/12</div>                            
+                                </div> 
+                            </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>Auto-fit</b></p>
+                        <div class="lt-grid demo lt-grid-auto-fit lt-gap-2">
+                            <div class="lt-box">A</div>
+                            <div class="lt-box">B</div>
+                            <div class="lt-box">C</div>
+                            <div class="lt-box">D</div>
+                            <div class="lt-box">E</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                                <div class="lt-grid demo lt-grid-auto-fit lt-gap-2">
+                                    <div class="lt-box">A</div>
+                                    <div class="lt-box">B</div>
+                                    <div class="lt-box">C</div>
+                                    <div class="lt-box">D</div>
+                                    <div class="lt-box">E</div>
+                                </div>
+                            </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>Row span</b></p>
+                        <div class="lt-grid demo lt-grid-cols-3 lt-gap-2" style="grid-auto-rows: 32px;" data-stretch-last>
+                            <div class="lt-box">A</div>
+                            <div class="lt-box lt-grid-row-span-2">B (row-span-2)</div>
+                            <div class="lt-box">C</div>
+                            <div class="lt-box">D</div>
+                            <div class="lt-box">E</div>
+                            <div class="lt-box">F</div>
+                            <div class="lt-box">J</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-grid demo lt-grid-cols-3 lt-gap-2" style="grid-auto-rows: 32px;" data-stretch-last>
+                                <div class="lt-box">A</div>
+                                <div class="lt-box lt-grid-row-span-2">B (row-span-2)</div>
+                                <div class="lt-box">C</div>
+                                <div class="lt-box">D</div>
+                                <div class="lt-box">E</div>
+                                <div class="lt-box">F</div>
+                                <div class="lt-box">J</div>
+                            </div>
+                        </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p><b>Columns content align</b></p>
+                        <div class="lt-grid demo bg lt-grid-cols-3 lt-gap-2" style="grid-auto-rows: 64px;width: 50%;">
+                            <div class="lt-box text-valign-top text-halign-left">top / left</div>
+                            <div class="lt-box text-valign-middle text-halign-center">middle / center</div>
+                            <div class="lt-box text-valign-top text-halign-right">top / right</div>
+                            <div class="lt-box text-valign-bottom text-halign-left">bottom / left</div>
+                            <div class="lt-box text-valign-middle text-halign-center">middle / center</div>
+                            <div class="lt-box text-valign-bottom text-halign-right">bottom / right</div>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-grid demo bg lt-grid-cols-3 lt-gap-2">
+                                <div class="lt-box text-valign-top text-halign-left">top / left</div>
+                                <div class="lt-box text-valign-middle text-halign-center">middle / center</div>
+                                <div class="lt-box text-valign-top text-halign-right">top / right</div>
+                                <div class="lt-box text-valign-bottom text-halign-left">bottom / left</div>
+                                <div class="lt-box text-valign-middle text-halign-center">middle / center</div>
+                                <div class="lt-box text-valign-bottom text-halign-right">bottom / right</div>
+                            </div>
+                        </pre>
+                    </div>
+                </div>
+            </section>
+            <section id="dropdown-menu">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Dropdown menu</span></div>
+                    <div class="lt-row">
+                        <div class="lt-dropdown-wrapper">
+                            <ul class="lt-dropdown-menu">
+                                <li>
+                                    <span class="shed">MenuItem 1</span>
+                                    <div class="lt-grid lt-grid-cols-1 lt-gap-0">
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Wine & Drink To Order</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Exclusively Online"><span>Exclusively Online</span></a>
+                                                    </li>
+                                                    <li class="noactive"><a href="#" title="Red Wine">Red Wine</a></li>
+                                                    <li class="node active">
+                                                        <span>Be Inspired</span>
+                                                        <ul>
+                                                            <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying
+                                                                        Guide</span></a></li>
+                                                            <li><a href="#" title="Flowers With a Difference"><span>Flowers With a
+                                                                        Difference</span></a></li>
+                                                            <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated
+                                                                        Flowers</span></a></li>
+                                                            <li><a href="#" title="Meijer Family Story"><span>Meijer Family
+                                                                        Story</span></a></li>
+                                                            <li class="node">
+                                                                <span>Be Inspired</span>
+                                                                <ul>
+                                                                    <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie
+                                                                                Buying Guide</span></a></li>
+                                                                    <li><a href="#" title="Flowers With a Difference"><span>Flowers
+                                                                                With a Difference</span></a></li>
+                                                                    <li><a href="#" title="Your Top Rated Flowers"><span>Your Top
+                                                                                Rated Flowers</span></a></li>
+                                                                    <li><a href="#" title="Meijer Family Story"><span>Meijer Family
+                                                                                Story</span></a></li>
+                                                                    <li class="node">
+                                                                        <span>Be Inspired</span>
+                                                                        <ul>
+                                                                            <li><a href="#"
+                                                                                    title="Lingerie Buying Guide"><span>Lingerie
+                                                                                        Buying Guide</span></a></li>
+                                                                            <li><a href="#"
+                                                                                    title="Flowers With a Difference"><span>Flowers
+                                                                                        With a Difference</span></a></li>
+                                                                            <li><a href="#"
+                                                                                    title="Your Top Rated Flowers"><span>Your Top
+                                                                                        Rated Flowers</span></a></li>
+                                                                            <li><a href="#" title="Meijer Family Story"><span>Meijer
+                                                                                        Family Story</span></a></li>
+                                                                            <li><a href="#"
+                                                                                    title="Fairtrade Flowers"><span>Fairtrade
+                                                                                        Flowers</span></a></li>
+                                                                            <li><a href="#" title="M&amp;S Stories"><span>M&amp;S
+                                                                                        Stories</span></a></li>
+                                                                            <li><a href="#" title="M&amp;S TV"><span>M&amp;S
+                                                                                        TV</span></a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade
+                                                                                Flowers</span></a></li>
+                                                                    <li><a href="#" title="M&amp;S Stories"><span>M&amp;S
+                                                                                Stories</span></a></li>
+                                                                    <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade
+                                                                        Flowers</span></a></li>
+                                                            <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a>
+                                                            </li>
+                                                            <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="Champagne"><span>Champagne</span></a></li>
+                                                    <li><a href="#" title="Award Winning Wine"><span>Award Winning Wine</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Sparkling Wine"><span>Sparkling Wine</span></a></li>
+                                                    <li><a href="#" title="Rose Wine"><span>Rose Wine</span></a></li>
+                                                    <li><a href="#" title="Fine Wine"><span>Fine Wine</span></a></li>
+                                                    <li><a href="#" title="Spirits"><span>Spirits</span></a></li>
+                                                    <li><a href="#" title="Mixed Cases"><span>Mixed Cases</span></a></li>
+                                                    <li><a href="#" title="Beer, Cider &amp; Ale"><span>Beer, Cider &amp;
+                                                                Ale</span></a></li>
+                                                    <li><a href="#" title="Single Bottle Gifts"><span>Single Bottle Gifts</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Food &amp; Wine Gifts"><span>Food &amp; Wine
+                                                                Gifts</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="shed">MenuItem 2</span>
+                                    <div class="lt-grid lt-grid-cols-2 lt-gap-0">
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Wine & Drink To Order</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Exclusively Online"><span>Exclusively Online</span></a>
+                                                    </li>
+                                                    <li class="noactive"><a href="#" title="Red Wine">Red Wine</a></li>
+                                                    <li class="node active">
+                                                        <span>Be Inspired</span>
+                                                        <ul>
+                                                            <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying
+                                                                        Guide</span></a></li>
+                                                            <li><a href="#" title="Flowers With a Difference"><span>Flowers With a
+                                                                        Difference</span></a></li>
+                                                            <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated
+                                                                        Flowers</span></a></li>
+                                                            <li><a href="#" title="Meijer Family Story"><span>Meijer Family
+                                                                        Story</span></a></li>
+                                                            <li class="node">
+                                                                <span>Be Inspired</span>
+                                                                <ul>
+                                                                    <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie
+                                                                                Buying Guide</span></a></li>
+                                                                    <li><a href="#" title="Flowers With a Difference"><span>Flowers
+                                                                                With a Difference</span></a></li>
+                                                                    <li><a href="#" title="Your Top Rated Flowers"><span>Your Top
+                                                                                Rated Flowers</span></a></li>
+                                                                    <li><a href="#" title="Meijer Family Story"><span>Meijer Family
+                                                                                Story</span></a></li>
+                                                                    <li class="node">
+                                                                        <span>Be Inspired</span>
+                                                                        <ul>
+                                                                            <li><a href="#"
+                                                                                    title="Lingerie Buying Guide"><span>Lingerie
+                                                                                        Buying Guide</span></a></li>
+                                                                            <li><a href="#"
+                                                                                    title="Flowers With a Difference"><span>Flowers
+                                                                                        With a Difference</span></a></li>
+                                                                            <li><a href="#"
+                                                                                    title="Your Top Rated Flowers"><span>Your Top
+                                                                                        Rated Flowers</span></a></li>
+                                                                            <li><a href="#" title="Meijer Family Story"><span>Meijer
+                                                                                        Family Story</span></a></li>
+                                                                            <li><a href="#"
+                                                                                    title="Fairtrade Flowers"><span>Fairtrade
+                                                                                        Flowers</span></a></li>
+                                                                            <li><a href="#" title="M&amp;S Stories"><span>M&amp;S
+                                                                                        Stories</span></a></li>
+                                                                            <li><a href="#" title="M&amp;S TV"><span>M&amp;S
+                                                                                        TV</span></a></li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade
+                                                                                Flowers</span></a></li>
+                                                                    <li><a href="#" title="M&amp;S Stories"><span>M&amp;S
+                                                                                Stories</span></a></li>
+                                                                    <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </li>
+                                                            <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade
+                                                                        Flowers</span></a></li>
+                                                            <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a>
+                                                            </li>
+                                                            <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="#" title="Champagne"><span>Champagne</span></a></li>
+                                                    <li><a href="#" title="Award Winning Wine"><span>Award Winning Wine</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Sparkling Wine"><span>Sparkling Wine</span></a></li>
+                                                    <li><a href="#" title="Rose Wine"><span>Rose Wine</span></a></li>
+                                                    <li><a href="#" title="Fine Wine"><span>Fine Wine</span></a></li>
+                                                    <li><a href="#" title="Spirits"><span>Spirits</span></a></li>
+                                                    <li><a href="#" title="Mixed Cases"><span>Mixed Cases</span></a></li>
+                                                    <li><a href="#" title="Beer, Cider &amp; Ale"><span>Beer, Cider &amp;
+                                                                Ale</span></a></li>
+                                                    <li><a href="#" title="Single Bottle Gifts"><span>Single Bottle Gifts</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Food &amp; Wine Gifts"><span>Food &amp; Wine
+                                                                Gifts</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Gifts By Occasion</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Anniversary Gifts"><span>Anniversary Gifts</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Congratulations Gifts"><span>Congratulations
+                                                                Gifts</span></a></li>
+                                                    <li><a href="#" title="Engagement Gifts"><span>Engagement Gifts</span></a></li>
+                                                    <li><a href="#" title="Halloween Party"><span>Halloween Party</span></a></li>
+                                                    <li><a href="#" title="New Baby Gifts"><span>New Baby Gifts</span></a></li>
+                                                    <li><a href="#" title="New Home Gifts"><span>New Home Gifts</span></a></li>
+                                                    <li><a href="#" title="Wedding Gifts"><span>Wedding Gifts</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Gifts By Recipient</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Gifts For Her"><span>Gifts For Her</span></a></li>
+                                                    <li><a href="#" title="Gifts For Him"><span>Gifts For Him</span></a></li>
+                                                    <li><a href="#" title="Gifts For Kids"><span>Gifts For Kids</span></a></li>
+                                                    <li><a href="#" title="Gifts For Two"><span>Gifts For Two</span></a></li>
+                                                    <li><a href="#" title="Gifts For the Home"><span>Gifts For the Home</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Shop By Service</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Gift Wrapping"><span>Gift Wrapping</span></a></li>
+                                                    <li><a href="#" title="Corporate Gifting"><span>Corporate Gifting</span></a></li>
+                                                    <li><a href="#" title="International Delivery"><span>International Delivery</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>                            
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="shed">MenuItem 3</span>
+                                    <div class="lt-grid lt-grid-cols-3 lt-gap-0">
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Wine & Drink To Order</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Exclusively Online"><span>Exclusively Online</span></a></li>
+                                                    <li><a href="#" title="Red Wine"><span>Red Wine</span></a></li>
+                                                    <li class="node">
+                                                      <span>Be Inspired</span>
+                                                      <ul>
+                                                        <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                        <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                        <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                        <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                        <li class="node">
+                                                          <span>Be Inspired</span>
+                                                          <ul>
+                                                            <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                            <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                            <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                            <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                            <li class="node">
+                                                              <span>Be Inspired</span>
+                                                              <ul>
+                                                                <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                                <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                                <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                                <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                                <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                                <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                                <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                              </ul>
+                                                            </li>
+                                                            <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                            <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                            <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                          </ul>
+                                                        </li>
+                                                        <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                        <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                        <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                      </ul>
+                                                    </li>
+                                                    <li><a href="#" title="Champagne"><span>Champagne</span></a></li>
+                                                    <li><a href="#" title="Award Winning Wine"><span>Award Winning Wine</span></a></li>
+                                                    <li><a href="#" title="Sparkling Wine"><span>Sparkling Wine</span></a></li>
+                                                    <li><a href="#" title="Rose Wine"><span>Rose Wine</span></a></li>
+                                                    <li><a href="#" title="Fine Wine"><span>Fine Wine</span></a></li>
+                                                    <li><a href="#" title="Spirits"><span>Spirits</span></a></li>
+                                                    <li><a href="#" title="Mixed Cases"><span>Mixed Cases</span></a></li>
+                                                    <li><a href="#" title="Beer, Cider &amp; Ale"><span>Beer, Cider &amp; Ale</span></a></li>
+                                                    <li><a href="#" title="Single Bottle Gifts"><span>Single Bottle Gifts</span></a></li>
+                                                    <li><a href="#" title="Food &amp; Wine Gifts"><span>Food &amp; Wine Gifts</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Gifts By Occasion</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Anniversary Gifts"><span>Anniversary Gifts</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Congratulations Gifts"><span>Congratulations
+                                                                Gifts</span></a></li>
+                                                    <li><a href="#" title="Engagement Gifts"><span>Engagement Gifts</span></a></li>
+                                                    <li><a href="#" title="Halloween Party"><span>Halloween Party</span></a></li>
+                                                    <li><a href="#" title="New Baby Gifts"><span>New Baby Gifts</span></a></li>
+                                                    <li><a href="#" title="New Home Gifts"><span>New Home Gifts</span></a></li>
+                                                    <li><a href="#" title="Wedding Gifts"><span>Wedding Gifts</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Gifts By Recipient</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Gifts For Her"><span>Gifts For Her</span></a></li>
+                                                    <li><a href="#" title="Gifts For Him"><span>Gifts For Him</span></a></li>
+                                                    <li><a href="#" title="Gifts For Kids"><span>Gifts For Kids</span></a></li>
+                                                    <li><a href="#" title="Gifts For Two"><span>Gifts For Two</span></a></li>
+                                                    <li><a href="#" title="Gifts For the Home"><span>Gifts For the Home</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Shop By Service</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Gift Wrapping"><span>Gift Wrapping</span></a></li>
+                                                    <li><a href="#" title="Corporate Gifting"><span>Corporate Gifting</span></a></li>
+                                                    <li><a href="#" title="International Delivery"><span>International Delivery</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>                            
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Flowers & Plants</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Birthday Cakes"><span>Birthday Cakes</span></a></li>
+                                                    <li><a href="#" title="Kids' Birthday Cakes"><span>Kids' Birthday Cakes</span></a></li>
+                                                    <li><a href="#" title="Special Occasion Cakes"><span>Special Occasion Cakes</span></a></li>
+                                                    <li><a href="#" title="Personalised Cakes"><span>Personalised Cakes</span></a></li>
+                                                    <li><a href="#" title="Wedding Cakes"><span>Wedding Cakes</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>                            
+                                    </div>
+                                </li>
+                                <li class="wild">
+                                    <span class="shed">MenuItem 4</span>
+                                    <div class="lt-grid lt-grid-auto-fit lt-gap-0" data-stretch-last="">
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Wine & Drink To Order</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Exclusively Online"><span>Exclusively Online</span></a></li>
+                                                    <li><a href="#" title="Red Wine"><span>Red Wine</span></a></li>
+                                                    <li class="node">
+                                                      <span>Be Inspired</span>
+                                                      <ul>
+                                                        <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                        <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                        <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                        <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                        <li class="node">
+                                                          <span>Be Inspired</span>
+                                                          <ul>
+                                                            <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                            <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                            <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                            <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                            <li class="node">
+                                                              <span>Be Inspired</span>
+                                                              <ul>
+                                                                <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                                <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                                <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                                <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                                <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                                <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                                <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                              </ul>
+                                                            </li>
+                                                            <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                            <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                            <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                          </ul>
+                                                        </li>
+                                                        <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                        <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                        <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                      </ul>
+                                                    </li>
+                                                    <li><a href="#" title="Champagne"><span>Champagne</span></a></li>
+                                                    <li><a href="#" title="Award Winning Wine"><span>Award Winning Wine</span></a></li>
+                                                    <li><a href="#" title="Sparkling Wine"><span>Sparkling Wine</span></a></li>
+                                                    <li><a href="#" title="Rose Wine"><span>Rose Wine</span></a></li>
+                                                    <li><a href="#" title="Fine Wine"><span>Fine Wine</span></a></li>
+                                                    <li><a href="#" title="Spirits"><span>Spirits</span></a></li>
+                                                    <li><a href="#" title="Mixed Cases"><span>Mixed Cases</span></a></li>
+                                                    <li><a href="#" title="Beer, Cider &amp; Ale"><span>Beer, Cider &amp; Ale</span></a></li>
+                                                    <li><a href="#" title="Single Bottle Gifts"><span>Single Bottle Gifts</span></a></li>
+                                                    <li><a href="#" title="Food &amp; Wine Gifts"><span>Food &amp; Wine Gifts</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Gifts By Occasion</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Anniversary Gifts"><span>Anniversary Gifts</span></a>
+                                                    </li>
+                                                    <li><a href="#" title="Congratulations Gifts"><span>Congratulations
+                                                                Gifts</span></a></li>
+                                                    <li><a href="#" title="Engagement Gifts"><span>Engagement Gifts</span></a></li>
+                                                    <li><a href="#" title="Halloween Party"><span>Halloween Party</span></a></li>
+                                                    <li><a href="#" title="New Baby Gifts"><span>New Baby Gifts</span></a></li>
+                                                    <li><a href="#" title="New Home Gifts"><span>New Home Gifts</span></a></li>
+                                                    <li><a href="#" title="Wedding Gifts"><span>Wedding Gifts</span></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Gifts By Recipient</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Gifts For Her"><span>Gifts For Her</span></a></li>
+                                                    <li><a href="#" title="Gifts For Him"><span>Gifts For Him</span></a></li>
+                                                    <li><a href="#" title="Gifts For Kids"><span>Gifts For Kids</span></a></li>
+                                                    <li><a href="#" title="Gifts For Two"><span>Gifts For Two</span></a></li>
+                                                    <li><a href="#" title="Gifts For the Home"><span>Gifts For the Home</span></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Shop By Service</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Gift Wrapping"><span>Gift Wrapping</span></a></li>
+                                                    <li><a href="#" title="Corporate Gifting"><span>Corporate Gifting</span></a></li>
+                                                    <li><a href="#" title="International Delivery"><span>International Delivery</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>                            
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Flowers & Plants</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Birthday Cakes"><span>Birthday Cakes</span></a></li>
+                                                    <li><a href="#" title="Kids' Birthday Cakes"><span>Kids' Birthday Cakes</span></a></li>
+                                                    <li><a href="#" title="Special Occasion Cakes"><span>Special Occasion Cakes</span></a></li>
+                                                    <li><a href="#" title="Personalised Cakes"><span>Personalised Cakes</span></a></li>
+                                                    <li><a href="#" title="Wedding Cakes"><span>Wedding Cakes</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Be Inspired</span>
+                                            <div class="lt-box">
+                                                <ul class="nodes">
+                                                    <li><a href="#" title="Lingerie Buying Guide"><span>Lingerie Buying Guide</span></a></li>
+                                                    <li><a href="#" title="Flowers With a Difference"><span>Flowers With a Difference</span></a></li>
+                                                    <li><a href="#" title="Your Top Rated Flowers"><span>Your Top Rated Flowers</span></a></li>
+                                                    <li><a href="#" title="Meijer Family Story"><span>Meijer Family Story</span></a></li>
+                                                    <li><a href="#" title="Fairtrade Flowers"><span>Fairtrade Flowers</span></a></li>
+                                                    <li><a href="#" title="M&amp;S Stories"><span>M&amp;S Stories</span></a></li>
+                                                    <li><a href="#" title="M&amp;S TV"><span>M&amp;S TV</span></a></li>
+                                                  </ul>
+                                            </div>
+                                        </div>                            
+                                        <div class="lt-dropdown-column">
+                                            <span class="lt-dropdown-column-header">Shop Gifts</span>
+                                            <div class="lt-box">
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-basic linenums">
+                            <div class="lt-dropdown-wrapper">
+                                <ul class="lt-dropdown-menu">
+                                    <li>
+                                        <span class="shed">MenuItem 1</span>
+                                        <div class="lt-grid lt-grid-cols-1 lt-gap-0">
+                                            <div class="lt-dropdown-column">
+                                                <span class="lt-dropdown-column-header">Wine & Drink To Order</span>
+                                                <div class="lt-box">
+                                                    <ul class="nodes">
+                                                        <li><a href="#" title="Exclusively Online"><span>Exclusively Online</span></a>
+                                                        </li>
+                                                        <li class="noactive"><a href="#" title="Red Wine">Red Wine</a></li>
+                                                        <li class="node active">
+                                                            <span>Be Inspired</span>
+                                                            <ul>
+                                                                ...
+                                                        <!-- next items -->
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <!-- other items -->
+                                </ul>
+                            </div>
+                        </pre>
+                    </div>        
+                </div>
+            </section>
+            <section id="images">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Images</span></div>
+                    <p>Class <code>lt-pic</code> is used to display images of block. To display captions using the tag <code>&lt;small></code> inside the class block <code>lt-pic</code>.<br>To align the block image to the left or right, use the class
+                        <code>lt-l</code> or <code>lt-r</code> with the class block <code>lt-pic</code>, as bellow.</p>
+            
+                    <div class="lt-row">
+                        <div class="lt-pic lt-l w160">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+            
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                            eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                            Phasellus viverra nulla ut metus varius laoreet.</p>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-pic lt-l w160">
+                                <img src="./image/img640x480.jpg">
+                                <small>Image title</small>
+                            </div>
+                            ...
+                        </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <div class="lt-pic lt-r w256">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+            
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                            eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                            Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                            Phasellus viverra nulla ut metus varius laoreet.</p>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-pic lt-r w256">
+                                <img src="./image/img640x480.jpg">
+                                <small>Image title</small>
+                            </div>
+                            ...
+                        </pre>
+                    </div>
+            
+                    <div class="lt-section"><span>Images gallery</span></div>
+                    <p>For a set of images provided class <code>lt-pic-gallery</code> for the container and <code>lt-pic-gallery-item</code> for the gallery element that is combined with the classes of the page layout.<br>Image(<i>&lt;img></i>) size depends on the size (width) of the parent unit container of class <code>lt-pic</code>, and always less than 99%.</p>
+                    <div class="lt-row lt-pic-gallery">
+                        <div class="lt-pic-gallery-item w190">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <div class="lt-pic-gallery-item w190">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <div class="lt-pic-gallery-item w190">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <div class="lt-pic-gallery-item w190">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <div class="lt-pic-gallery-item w190">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                        <div class="lt-pic-gallery-item w190">
+                            <img src="./image/img640x480.jpg">
+                            <small>Image title</small>
+                        </div>
+                    </div>
+            
+                    <div class="lt-grid">
+                        <div class="lt-row rel">
+                            <div class="lt-cell-4">
+                                <div class="lt-pic">
+                                    <img src="./image/img640x480.jpg">
+                                    <small>Image title</small>
+                                </div>
+                            </div>
+                            <div class="lt-cell-8">
+                                <div class="lt-row rel">
+                                    <div class="lt-cell-2">
+                                        <div class="lt-pic">
+                                            <img src="./image/img480x480.jpg">
+                                            <small>Image title</small>
+                                        </div>
+                                    </div>
+                                    <div class="lt-cell-2">
+                                        <div class="lt-pic">
+                                            <img src="./image/img480x480.jpg">
+                                            <small>Image title</small>
+                                        </div>
+                                    </div>
+                                    <div class="lt-cell-2">
+                                        <div class="lt-pic">
+                                            <img src="./image/img480x480.jpg">
+                                            <small>Image title</small>
+                                        </div>
+                                    </div>
+                                    <div class="lt-cell-4">
+                                        <div class="lt-pic">
+                                            <img src="./image/img640x480.jpg">
+                                            <small>Image title</small>
+                                        </div>
+                                    </div>
+                                    <div class="lt-cell-2">
+                                        <div class="lt-pic">
+                                            <img src="./image/img480x480.jpg">
+                                            <small>Image title</small>
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-row lt-pic-gallery">
+                                <div class="lt-pic-gallery-item w190">
+                                    <img src="./image/img640x480.jpg">
+                                    <small>Image title</small>
+                                </div>
+                                <!-- next of lt-pic-gallery-item -->
+                            </div>
+                        </pre>
+                    </div>
+            
+                    <div class="lt-section"><span>Images cropped (to square aspect ratio)</span></div>
+                    <p>If image is too big, it gets cropped to a square. If image is too small, it gets stretched to fit then cropped to a square.</p>
+                    <p><b>Important!</b><br>Element of class <code>lt-frame</code> must have a fixed size (width and height).</p>
+            
+                    <div class="lt-row lt-pic-gallery">
+                        <div class="lt-pic-gallery-item lt-frame w48 h48">
+                            <div class="crop">
+                                <img src="./image/img96x96.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame w64 h64">
+                            <div class="crop">
+                                <img src="./image/img96x96.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame w96 h96">
+                            <div class="crop">
+                                <img src="./image/img480x480.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame w128 h128">
+                            <div class="crop">
+                                <img src="./image/img480x480.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame w256 h256">
+                            <div class="crop">
+                                <img src="./image/img480x480.jpg">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-row lt-pic-gallery">
+                                <div class="lt-pic-gallery-item lt-frame w48 h48">
+                                    <div class="crop">
+                                        <img src="./image/img480x480.jpg">
+                                    </div>
+                                </div>
+                                <!-- next lt-frame -->
+                            </div>
+                        </pre>
+                    </div>
+            
+                    <p>For cropped to a round add class <code>round</code> to element of <code>lt-frame</code>, as bellow.</p>
+                    <div class="lt-row lt-pic-gallery">
+                        <div class="lt-pic-gallery-item lt-frame round w48 h48">
+                            <div class="crop">
+                                <img src="./image/img96x96.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame round w64 h64">
+                            <div class="crop">
+                                <img src="./image/img96x96.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame round w96 h96">
+                            <div class="crop">
+                                <img src="./image/img480x480.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame round w128 h128">
+                            <div class="crop">
+                                <img src="./image/img480x480.jpg">
+                            </div>
+                        </div>
+                        <div class="lt-pic-gallery-item lt-frame round w256 h256">
+                            <div class="crop">
+                                <img src="./image/img640x480.jpg">
+                            </div>
+                        </div>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <div class="lt-row lt-pic-gallery">
+                                <div class="lt-pic-gallery-item lt-frame round w48 h48">
+                                    <div class="crop">
+                                        <img src="./image/img480x480.jpg">
+                                    </div>
+                                </div>
+            
+                                <!-- next lt-frame -->
+                            </div>
+                        </pre>
+                    </div>
+                </div>
+            </section>
+            <section id="icons">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Icons</span></div>
+            
+                    <div class="lt-row">
+                        <p>Note! To use the icons, include the CSS file in your page: <code>&lt;link href="path/to/css/icons.css" rel="stylesheet"></code>.</p>
+            
+                        <p>For add an icon on the page, add a icon container class name <code>lt-icon-...</code>, as bellow.<br>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <i class="lt-icon-agenda"></i>
+                        </pre>
+                        <p>As a result, you get <i class="lt-icon-agenda"></i></p>
+                    </div>
+            
+                    <div class="lt-section"><span>Icons size</span></div>
+                    <div class="lt-row">
+                        <p>There are several icons sizes: small, standard and large. To use a preset size of the icons, add the name of the class, as bellow.<br>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <i class="lt-icon-small lt-icon-agenda"></i>
+                            <i class="lt-icon-agenda"></i>
+                            <i class="lt-icon-large lt-icon-agenda"></i>
+                        </pre>
+                        <p>As a result, you get <i class="lt-icon-small lt-icon-agenda"></i> <i class="lt-icon-agenda"></i> <i class="lt-icon-large lt-icon-agenda"></i></p>
+                    </div>
+            
+                    <div class="lt-section"><span>Glyphs</span></div>
+                    <div class="lt-row">
+                        <p>Also provides for the use of icons as a glyphs (with a preset sizes: 24px,32px,48px,64px), simply add the appropriate class name to icon container <code>lt-icon-...</code>, as bellow.<br>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <i class="lt-glyph-24 lt-icon-agenda"></i>
+                            <i class="lt-glyph-32 lt-icon-agenda"></i>
+                            <i class="lt-glyph-48 lt-icon-agenda"></i>
+                            <i class="lt-glyph-64 lt-icon-agenda"></i>
+                        </pre>
+                        <p>As a result, you get:
+                            <i class="lt-glyph-24 lt-icon-agenda"></i>
+                            <i class="lt-glyph-32 lt-icon-agenda"></i>
+                            <i class="lt-glyph-48 lt-icon-agenda"></i>
+                            <i class="lt-glyph-64 lt-icon-agenda"></i>
+                        </p>
+                    </div>
+            
+            
+                    <div class="lt-section"><span>Flip & rotate</span></div>
+                    <div class="lt-row">
+                        <p>There are several icons sizes: small, standard and large. To use a preset size of the icons, add the name of the class, as bellow.<br>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-rotate-90"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-rotate-180"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-rotate-270"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-flip-horizontal"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-flip-vertical"></i>
+                            <i class="lt-glyph-24 lt-icon-circle-alert lt-icon-spin"></i>
+                        </pre>
+                        <p>As a result, you get:
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-rotate-90"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-rotate-180"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-rotate-270"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-flip-horizontal"></i>
+                            <i class="lt-glyph-24 lt-icon-agenda lt-icon-flip-vertical"></i>
+                            <i class="lt-glyph-24 lt-icon-circle-alert lt-icon-spin"></i>
+                        </p>
+                    </div>
+            
+                    <div class="lt-section"><span>Existing icons</span></div>
+                    <p>In the current version of all 230 icons.</p>
+                    <section id="glyphs">
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-agenda"></div>
+                            <div class="class-name">lt-icon-agenda</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-alert"></div>
+                            <div class="class-name">lt-icon-circle-alert</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-align-center"></div>
+                            <div class="class-name">lt-icon-align-center</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-align-left"></div>
+                            <div class="class-name">lt-icon-align-left</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-arr-down"></div>
+                            <div class="class-name">lt-icon-arr-down</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-arr-left"></div>
+                            <div class="class-name">lt-icon-arr-left</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-arr-right"></div>
+                            <div class="class-name">lt-icon-arr-right</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-arr-up"></div>
+                            <div class="class-name">lt-icon-arr-up</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-atomic"></div>
+                            <div class="class-name">lt-icon-atomic</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bag-1"></div>
+                            <div class="class-name">lt-icon-bag-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bag-2"></div>
+                            <div class="class-name">lt-icon-bag-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bag-3"></div>
+                            <div class="class-name">lt-icon-bag-3</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bed"></div>
+                            <div class="class-name">lt-icon-bed</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-flash"></div>
+                            <div class="class-name">lt-icon-flash</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-book"></div>
+                            <div class="class-name">lt-icon-book</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bookmark"></div>
+                            <div class="class-name">lt-icon-bookmark</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bookmark-alt"></div>
+                            <div class="class-name">lt-icon-bookmark-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-books"></div>
+                            <div class="class-name">lt-icon-books</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-books-alt"></div>
+                            <div class="class-name">lt-icon-books-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-briefcase-checked"></div>
+                            <div class="class-name">lt-icon-briefcase-checked</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-briefcase"></div>
+                            <div class="class-name">lt-icon-briefcase</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-briefcase-alt"></div>
+                            <div class="class-name">lt-icon-briefcase-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bug-1"></div>
+                            <div class="class-name">lt-icon-bug-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-bug-2"></div>
+                            <div class="class-name">lt-icon-bug-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-build"></div>
+                            <div class="class-name">lt-icon-build</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-business-alt"></div>
+                            <div class="class-name">lt-icon-business-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-business"></div>
+                            <div class="class-name">lt-icon-business</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-calc"></div>
+                            <div class="class-name">lt-icon-calc</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-calendar"></div>
+                            <div class="class-name">lt-icon-calendar</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-call-center-alt"></div>
+                            <div class="class-name">lt-icon-call-center-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-camera-alt"></div>
+                            <div class="class-name">lt-icon-camera-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-camera"></div>
+                            <div class="class-name">lt-icon-camera</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-carrier-down"></div>
+                            <div class="class-name">lt-icon-carrier-down</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-carrier-up"></div>
+                            <div class="class-name">lt-icon-carrier-up</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-carrier"></div>
+                            <div class="class-name">lt-icon-carrier</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chat-alt"></div>
+                            <div class="class-name">lt-icon-chat-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-check-1"></div>
+                            <div class="class-name">lt-icon-check-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-check-2"></div>
+                            <div class="class-name">lt-icon-check-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-check-3"></div>
+                            <div class="class-name">lt-icon-check-3</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-check-4"></div>
+                            <div class="class-name">lt-icon-check-4</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chemistry-black"></div>
+                            <div class="class-name">lt-icon-chemistry-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chemistry"></div>
+                            <div class="class-name">lt-icon-chemistry</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chemistry-alt"></div>
+                            <div class="class-name">lt-icon-chemistry-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chip-alt"></div>
+                            <div class="class-name">lt-icon-chip-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chip-alt2"></div>
+                            <div class="class-name">lt-icon-chip-alt2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chip"></div>
+                            <div class="class-name">lt-icon-chip</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-close"></div>
+                            <div class="class-name">lt-icon-circle-close</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-down"></div>
+                            <div class="class-name">lt-icon-circle-down</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-equalization"></div>
+                            <div class="class-name">lt-icon-circle-equalization</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-fast"></div>
+                            <div class="class-name">lt-icon-circle-fast</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-help"></div>
+                            <div class="class-name">lt-icon-circle-help</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-info-black"></div>
+                            <div class="class-name">lt-icon-circle-info-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-info"></div>
+                            <div class="class-name">lt-icon-circle-info</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-left"></div>
+                            <div class="class-name">lt-icon-circle-left</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-menu"></div>
+                            <div class="class-name">lt-icon-circle-menu</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-minus-black"></div>
+                            <div class="class-name">lt-icon-circle-minus-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-minus"></div>
+                            <div class="class-name">lt-icon-circle-minus</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-more"></div>
+                            <div class="class-name">lt-icon-circle-more</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-pause"></div>
+                            <div class="class-name">lt-icon-circle-pause</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-plus"></div>
+                            <div class="class-name">lt-icon-circle-plus</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-rewind"></div>
+                            <div class="class-name">lt-icon-circle-rewind</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-sad-black"></div>
+                            <div class="class-name">lt-icon-circle-sad-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-sad"></div>
+                            <div class="class-name">lt-icon-circle-sad</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-smile-black"></div>
+                            <div class="class-name">lt-icon-circle-smile-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-smile"></div>
+                            <div class="class-name">lt-icon-circle-smile</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-stop"></div>
+                            <div class="class-name">lt-icon-circle-stop</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-up"></div>
+                            <div class="class-name">lt-icon-circle-up</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-clear"></div>
+                            <div class="class-name">lt-icon-clear</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-clip"></div>
+                            <div class="class-name">lt-icon-clip</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-clip-alt"></div>
+                            <div class="class-name">lt-icon-clip-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-clipboard"></div>
+                            <div class="class-name">lt-icon-clipboard</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-clock-alt"></div>
+                            <div class="class-name">lt-icon-clock-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-clock"></div>
+                            <div class="class-name">lt-icon-clock</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-code-alt"></div>
+                            <div class="class-name">lt-icon-code-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-code"></div>
+                            <div class="class-name">lt-icon-code</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-compass"></div>
+                            <div class="class-name">lt-icon-compass</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-computer"></div>
+                            <div class="class-name">lt-icon-computer</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-credit-card"></div>
+                            <div class="class-name">lt-icon-credit-card</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-circle-close-black"></div>
+                            <div class="class-name">lt-icon-circle-close-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-cross"></div>
+                            <div class="class-name">lt-icon-cross</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-day"></div>
+                            <div class="class-name">lt-icon-day</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-delivery"></div>
+                            <div class="class-name">lt-icon-delivery</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-document"></div>
+                            <div class="class-name">lt-icon-document</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-dollar-1"></div>
+                            <div class="class-name">lt-icon-dollar-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-dollar-2"></div>
+                            <div class="class-name">lt-icon-dollar-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-download-1"></div>
+                            <div class="class-name">lt-icon-download-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-download-2"></div>
+                            <div class="class-name">lt-icon-download-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-download"></div>
+                            <div class="class-name">lt-icon-download</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-edit-back"></div>
+                            <div class="class-name">lt-icon-edit-back</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-edit-crop"></div>
+                            <div class="class-name">lt-icon-edit-crop</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-edit-cut-2"></div>
+                            <div class="class-name">lt-icon-edit-cut-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-edit-cut"></div>
+                            <div class="class-name">lt-icon-edit-cut</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-edit-forward"></div>
+                            <div class="class-name">lt-icon-edit-forward</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-edit-undo"></div>
+                            <div class="class-name">lt-icon-edit-undo</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-email-alt"></div>
+                            <div class="class-name">lt-icon-email-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-email-alt2"></div>
+                            <div class="class-name">lt-icon-email-alt2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-email-alt3"></div>
+                            <div class="class-name">lt-icon-email-alt3</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-email-black"></div>
+                            <div class="class-name">lt-icon-email-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-exclam"></div>
+                            <div class="class-name">lt-icon-exclam</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-exit"></div>
+                            <div class="class-name">lt-icon-exit</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-eye-no"></div>
+                            <div class="class-name">lt-icon-eye-no</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-eye"></div>
+                            <div class="class-name">lt-icon-eye</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-facebook"></div>
+                            <div class="class-name">lt-icon-facebook</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-file"></div>
+                            <div class="class-name">lt-icon-file</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-film"></div>
+                            <div class="class-name">lt-icon-film</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-filter"></div>
+                            <div class="class-name">lt-icon-filter</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-flash-black"></div>
+                            <div class="class-name">lt-icon-flash-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-flash"></div>
+                            <div class="class-name">lt-icon-flash</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folder-alt"></div>
+                            <div class="class-name">lt-icon-folder-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folder-alt2"></div>
+                            <div class="class-name">lt-icon-folder-alt2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folder-check"></div>
+                            <div class="class-name">lt-icon-folder-check</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folder-del"></div>
+                            <div class="class-name">lt-icon-folder-del</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folder-edit"></div>
+                            <div class="class-name">lt-icon-folder-edit</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folder-minus"></div>
+                            <div class="class-name">lt-icon-folder-minus</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-folders"></div>
+                            <div class="class-name">lt-icon-folders</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-gear"></div>
+                            <div class="class-name">lt-icon-gear</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-quote-end"></div>
+                            <div class="class-name">lt-icon-quote-end</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-home-alt"></div>
+                            <div class="class-name">lt-icon-home-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-home"></div>
+                            <div class="class-name">lt-icon-home</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-html-5"></div>
+                            <div class="class-name">lt-icon-html-5</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-html-alt"></div>
+                            <div class="class-name">lt-icon-html-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-html"></div>
+                            <div class="class-name">lt-icon-html</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-image-alt"></div>
+                            <div class="class-name">lt-icon-image-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-image"></div>
+                            <div class="class-name">lt-icon-image</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-key"></div>
+                            <div class="class-name">lt-icon-key</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-label-left"></div>
+                            <div class="class-name">lt-icon-label-left</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-label-right"></div>
+                            <div class="class-name">lt-icon-label-right</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-light-black"></div>
+                            <div class="class-name">lt-icon-light-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-light-white"></div>
+                            <div class="class-name">lt-icon-light-white</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-link-alt"></div>
+                            <div class="class-name">lt-icon-link-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-link"></div>
+                            <div class="class-name">lt-icon-link</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-linkedin"></div>
+                            <div class="class-name">lt-icon-linkedin</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-location"></div>
+                            <div class="class-name">lt-icon-location</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-lock"></div>
+                            <div class="class-name">lt-icon-lock</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-lock-cube"></div>
+                            <div class="class-name">lt-icon-lock-cube</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-magic"></div>
+                            <div class="class-name">lt-icon-magic</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-map-point-alt"></div>
+                            <div class="class-name">lt-icon-map-point-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-map-point"></div>
+                            <div class="class-name">lt-icon-map-point</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-map"></div>
+                            <div class="class-name">lt-icon-map</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-mark"></div>
+                            <div class="class-name">lt-icon-mark</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-menu"></div>
+                            <div class="class-name">lt-icon-menu</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-meter-alt"></div>
+                            <div class="class-name">lt-icon-meter-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-meter"></div>
+                            <div class="class-name">lt-icon-meter</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-microscopes"></div>
+                            <div class="class-name">lt-icon-microscopes</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-mountain"></div>
+                            <div class="class-name">lt-icon-mountain</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-news"></div>
+                            <div class="class-name">lt-icon-news</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-notify-off"></div>
+                            <div class="class-name">lt-icon-notify-off</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-notify"></div>
+                            <div class="class-name">lt-icon-notify</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-paperclip"></div>
+                            <div class="class-name">lt-icon-paperclip</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-pen"></div>
+                            <div class="class-name">lt-icon-pen</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-pencil-alt"></div>
+                            <div class="class-name">lt-icon-pencil-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-pencil"></div>
+                            <div class="class-name">lt-icon-pencil</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-phone-call"></div>
+                            <div class="class-name">lt-icon-phone-call</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-phone"></div>
+                            <div class="class-name">lt-icon-phone</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-play"></div>
+                            <div class="class-name">lt-icon-play</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-plug"></div>
+                            <div class="class-name">lt-icon-plug</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-power"></div>
+                            <div class="class-name">lt-icon-power</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-puzzle"></div>
+                            <div class="class-name">lt-icon-puzzle</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-quote"></div>
+                            <div class="class-name">lt-icon-quote</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-receipt"></div>
+                            <div class="class-name">lt-icon-receipt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-recognition"></div>
+                            <div class="class-name">lt-icon-recognition</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-refresh"></div>
+                            <div class="class-name">lt-icon-refresh</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-save"></div>
+                            <div class="class-name">lt-icon-save</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-savings"></div>
+                            <div class="class-name">lt-icon-savings</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-science"></div>
+                            <div class="class-name">lt-icon-science</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-screen"></div>
+                            <div class="class-name">lt-icon-screen</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-anchor"></div>
+                            <div class="class-name">lt-icon-anchor</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-search"></div>
+                            <div class="class-name">lt-icon-search</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-server"></div>
+                            <div class="class-name">lt-icon-server</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-service"></div>
+                            <div class="class-name">lt-icon-service</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-settings-alt"></div>
+                            <div class="class-name">lt-icon-settings-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-settings"></div>
+                            <div class="class-name">lt-icon-settings</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-share"></div>
+                            <div class="class-name">lt-icon-share</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-shield-alt"></div>
+                            <div class="class-name">lt-icon-shield-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-shield"></div>
+                            <div class="class-name">lt-icon-shield</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-shop-discount"></div>
+                            <div class="class-name">lt-icon-shop-discount</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-shop-new"></div>
+                            <div class="class-name">lt-icon-shop-new</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-shop-sale"></div>
+                            <div class="class-name">lt-icon-shop-sale</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-show-alt"></div>
+                            <div class="class-name">lt-icon-show-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-show"></div>
+                            <div class="class-name">lt-icon-show</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-silhouette"></div>
+                            <div class="class-name">lt-icon-silhouette</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-user-group"></div>
+                            <div class="class-name">lt-icon-user-group</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-share"></div>
+                            <div class="class-name">lt-icon-share</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-sort-asc"></div>
+                            <div class="class-name">lt-icon-sort-asc</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-sort-desc"></div>
+                            <div class="class-name">lt-icon-sort-desc</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-black"></div>
+                            <div class="class-name">lt-icon-speech-black</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-bubble-alt"></div>
+                            <div class="class-name">lt-icon-speech-bubble-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-bubble-alt1"></div>
+                            <div class="class-name">lt-icon-speech-bubble-alt1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-bubble"></div>
+                            <div class="class-name">lt-icon-speech-bubble</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-bubble-alt2"></div>
+                            <div class="class-name">lt-icon-speech-bubble-alt2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-chat"></div>
+                            <div class="class-name">lt-icon-speech-chat</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-image"></div>
+                            <div class="class-name">lt-icon-speech-image</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-question"></div>
+                            <div class="class-name">lt-icon-speech-question</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-sms"></div>
+                            <div class="class-name">lt-icon-speech-sms</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-video"></div>
+                            <div class="class-name">lt-icon-speech-video</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech-warn"></div>
+                            <div class="class-name">lt-icon-speech-warn</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-speech"></div>
+                            <div class="class-name">lt-icon-speech</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-star-empty"></div>
+                            <div class="class-name">lt-icon-star-empty</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-star-full"></div>
+                            <div class="class-name">lt-icon-star-full</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-star-half"></div>
+                            <div class="class-name">lt-icon-star-half</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-statistics"></div>
+                            <div class="class-name">lt-icon-statistics</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-statistics-alt"></div>
+                            <div class="class-name">lt-icon-statistics-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-support24"></div>
+                            <div class="class-name">lt-icon-support24</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-swap"></div>
+                            <div class="class-name">lt-icon-swap</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-sync"></div>
+                            <div class="class-name">lt-icon-sync</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-chemistry"></div>
+                            <div class="class-name">lt-icon-chemistry</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-time"></div>
+                            <div class="class-name">lt-icon-time</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-tip-help"></div>
+                            <div class="class-name">lt-icon-tip-help</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-tool"></div>
+                            <div class="class-name">lt-icon-tool</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-tools"></div>
+                            <div class="class-name">lt-icon-tools</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-trash-alt"></div>
+                            <div class="class-name">lt-icon-trash-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-trash"></div>
+                            <div class="class-name">lt-icon-trash</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-tuning-alt"></div>
+                            <div class="class-name">lt-icon-tuning-alt</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-tuning"></div>
+                            <div class="class-name">lt-icon-tuning</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-twitter"></div>
+                            <div class="class-name">lt-icon-twitter</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-upload-1"></div>
+                            <div class="class-name">lt-icon-upload-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-upload-2"></div>
+                            <div class="class-name">lt-icon-upload-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-upload"></div>
+                            <div class="class-name">lt-icon-upload</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-usb"></div>
+                            <div class="class-name">lt-icon-usb</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-user"></div>
+                            <div class="class-name">lt-icon-user</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-view-card-2"></div>
+                            <div class="class-name">lt-icon-view-card-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-view-card"></div>
+                            <div class="class-name">lt-icon-view-card</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-view-list"></div>
+                            <div class="class-name">lt-icon-view-list</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-visa"></div>
+                            <div class="class-name">lt-icon-visa</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-wallet-1"></div>
+                            <div class="class-name">lt-icon-wallet-1</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-wallet-2"></div>
+                            <div class="class-name">lt-icon-wallet-2</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-waving"></div>
+                            <div class="class-name">lt-icon-waving</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-php"></div>
+                            <div class="class-name">lt-icon-php</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-zoom-max"></div>
+                            <div class="class-name">lt-icon-zoom-max</div>
+                        </div>
+                        <div class="lt-glyph-block">
+                            <div class="lt-glyph-64 lt-icon-zoom-min"></div>
+                            <div class="class-name">lt-icon-zoom-min</div>
+                        </div>
+                    </section>
+                </div>                
+            </section> 
+            <section id="tooltips">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Tooltips</span></div>
+                    <p>Note! For use the tooltips, include the CSS file in your page:
+                        <code>&lt;link href="path/to/css/tooltips.css" rel="stylesheet"></code>.</p>
+                    <p>To create LightType tooltip element, add class <code>lt-tooltip</code> to any element, as
+                        below.<br>If you want to be displayed around the block arrow, add class
+                        <code>lt-arrow-[top,right,bottom,left]-[top,right,bottom,left]</code>,
+                        depending on the order in which the arrow should be displayed.</p>
+            
+                    <div class="lt-row">
+                        <div class="lt-grid lt-grid-cols-4 lt-gap-2">
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-top-left lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Top Left</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-top-right lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Top Right</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-bottom-left lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Bottom Left</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-bottom-right lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Bottom Right</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-left-top lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Left Top</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-left-bottom lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Left Bottom</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-right-top lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Right Top</p>
+                                </div>
+                            </div>
+                            <div class="lt-box">
+                                <div class="lt-tooltip lt-arrow-right-bottom lt-bordered">
+                                    <div class="caption">Default bordered</div>
+                                    <p>Arrow Right Bottom</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lt-row rel">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-css linenums">
+                        <div class="lt-tooltip lt-arrow-right-bottom lt-bordered">
+                            <div class="caption">Default bordered</div>
+                            <p>Arrow Right Bottom</p>
+                        </div>
+                    </pre>
+                    </div>
+                </div>
+            </section>
+            <section id="forms">
+                <div class="lt-block">
+                    <div class="lt-section"><span>Buttons</span></div>
+            
+                    <div class="lt-row">
+                        <p>To create LightType button, add class <code>lt-button</code> to any element, as below.</p>
+                        <a href="#" class="lt-button" target="_blank">link(lt-button)</a>
+                        <span class="lt-button">span(lt-button)</span>
+                        <div class="lt-button">div(lt-button)</div>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-basic linenums">
+                            <a href="#" class="lt-button" target="_blank">link(lt-button)</a>
+                            <span class="lt-button">span(lt-button)</span>
+                            <div class="lt-button">div(lt-button)</div>
+                        </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Buttons can be of different sizes, there are three basic: small, regular and large.<br>To change
+                            the size of a button, add to class <code>lt-button</code> class <code>small</code> or
+                            <code>large</code>, as shown below.
+                        </p>
+                        <a href="#" class="lt-button small" target="_blank">link(lt-button)</a>
+                        <span class="lt-button">span(lt-button)</span>
+                        <div class="lt-button large">div(lt-button)</div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-basic linenums">
+                            <a href="#" class="lt-button small" target="_blank">link(lt-button)</a>
+                            <span class="lt-button">span(lt-button)</span>
+                            <div class="lt-button large">div(lt-button)</div>
+                        </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Buttons can be of different colors, there are four basic: alert, success, warning and info.<br>To
+                            change the color of a button, add to class <code>lt-button</code> class
+                            <code>lt-button-*</code>, as shown below.</p>
+                        <div class="lt-button lt-button-alert w96">Alert</div>
+                        <div class="lt-button lt-button-success w96">Success</div>
+                        <div class="lt-button lt-button-warn w96">Warning</div>
+                        <div class="lt-button lt-button-info w96">Info</div>
+                    </div>
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-basic linenums">
+                            <div class="lt-button lt-button-alert w96">Alert</div>
+                            <div class="lt-button lt-button-success w96">Success</div>
+                            <div class="lt-button lt-button-warn w96">Warning</div>
+                            <div class="lt-button lt-button-info w96">Info</div>
+                        </pre>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>To create LightType buttons bar, wrap any elements of class of <code>lt-button</code> into
+                            element class <code>lt-button-bar</code>, as below.</p>
+            
+                        <div class="lt-button-bar">
+                            <a href="#" class="lt-button">Link(lt-button) 1</a>
+                            <a href="#" class="lt-button">Link(lt-button) 2</a>
+                            <a href="#" class="lt-button">Link(lt-button) 3</a>
+                        </div>
+                    </div>
+            
+                    <div class="lt-row">
+                        <p>Code example:</p>
+                        <pre class="prettyprint lang-basic linenums">
+                    <div class="lt-button-bar">
+                        <a href="#" class="lt-button">Link(lt-button) 1</a>
+                        <a href="#" class="lt-button">Link(lt-button) 2</a>
+                        <a href="#" class="lt-button">Link(lt-button) 3</a>
+                    </div>
+                </pre>
+                    </div>
+                </div>
+                
+                <div class="lt-block">
+                    <div class="lt-section"><span>Inputs & other forms elements</span></div>
+            
+                    <div class="lt-row">
+                        <div class="lt-grid lt-grid-cols-12 lt-gap-2">
+                            <div class="lt-box lt-grid-col-span-8">
+                                <pre class="prettyprint lang-basic linenums">
+                                    <fieldset>
+                                        <legend>Form elements</legend>
+                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                            dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                            nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,pretium
+                                            quis, sem. Nulla consequat massa quis enim.</p>
+                                    </fieldset>
+                                </pre>
+                            </div>
+                            <div class="lt-box lt-grid-col-span-4">
+                                <fieldset>
+                                    <legend>Form elements</legend>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                        dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,pretium
+                                        quis, sem. Nulla consequat massa quis enim.</p>
+                                </fieldset>
+                            </div>
+            
+                            <div class="lt-box lt-grid-col-span-8">
+                                <pre class="prettyprint lang-basic linenums">
+                                    <input class="w100r" type="text" placeholder="Input you text here..." value="12345678">
+                                    <input class="w100r lt-valid" type="text" placeholder="Input you text here..." value="12345678">
+                                    <input class="w100r lt-invalid" type="text" placeholder="Input you text here..." value="12345678">
+                                    <input class="w100r" type="text" placeholder="Readonly" readonly="readonly"
+                                        value="12345678">
+                                    <input class="w100r" type="text" placeholder="Disabled" disabled="disabled"
+                                        value="12345678">
+                                    <input class="w100r" type="password" value="12345678">
+                                    <textarea placeholder="Textarea" rows="5"...></textarea>
+                                </pre>
+                            </div>
+                            <div class="lt-box lt-grid-col-span-4">
+                                <input class="w100r" type="text" placeholder="Input you text here..." value="12345678">
+                                <input class="w100r lt-valid" type="text" placeholder="Input you text here..." value="12345678">
+                                <input class="w100r lt-invalid" type="text" placeholder="Input you text here..." value="12345678">
+                                <input class="w100r" type="text" placeholder="Readonly" readonly="readonly"
+                                    value="12345678">
+                                <input class="w100r" type="text" placeholder="Disabled" disabled="disabled"
+                                    value="12345678">
+                                <input class="w100r" type="password" value="12345678">
+                                <textarea placeholder="Textarea" rows="5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</textarea>
+                            </div>
+            
+                            <div class="lt-box lt-grid-col-span-8">
+                                <pre class="prettyprint lang-basic linenums">
+                                <select class="w100r">
+                                    <optgroup label="Option group">
+                                        <option selected="selected">Item 1</option>
+                                        <option>Item 2</option>
+                                    </optgroup>
+                                    <option>Item 3</option>
+                                </select>
+                                <!-- multi-row & multiple -->
+                                <select class="w100r" size="7" multiple="multiple">
+                                    <optgroup label="Option group">
+                                        <option selected="selected">Item 1</option>
+                                        <option>Item 2</option>
+                                    </optgroup>
+                                    <option>Item 3</option>
+                                </select>
+                            </pre>
+                            </div>
+            
+                            <div class="lt-box lt-grid-col-span-4">
+                                <select class="w100r">
+                                    <optgroup label="Option group">
+                                        <option selected="selected">Item 1</option>
+                                        <option>Item 2</option>
+                                    </optgroup>
+                                    <option>Item 3</option>
+                                </select>
+                                <select class="w100r" size="7" multiple="multiple">
+                                    <optgroup label="Option group">
+                                        <option selected="selected">Item 1</option>
+                                        <option>Item 2</option>
+                                    </optgroup>
+                                    <option>Item 3</option>
+                                </select>
+                            </div>
+            
+                            <div class="lt-box lt-grid-col-span-8">
+                                <pre class="prettyprint lang-basic linenums">
+                                    <label class="lt-input-toggle">
+                                        <input type="checkbox" name="check_1" value="1" checked="checked" />
+                                        <span class="lt-mark lt-checkbox"></span>
+                                        <span class="lt-label">Check 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="checkbox" name="check_2" value="2" />
+                                        <span class="lt-mark lt-checkbox"></span>
+                                        <span class="lt-label">Check 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="checkbox" name="check_3" value="3" checked="checked" disabled />
+                                        <span class="lt-mark lt-checkbox"></span>
+                                        <span class="lt-label">Other(disabled)</span>
+                                    </label>
+                                </pre>
+                            </div>
+                            <div class="lt-box lt-grid-col-span-4">
+                                <div class="lt-toggle-group lt-vertical">
+                                    <label class="lt-input-toggle">
+                                        <input type="checkbox" name="check_1" value="1" checked="checked" />
+                                        <span class="lt-mark lt-checkbox"></span>
+                                        <span class="lt-label">Check 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="checkbox" name="check_2" value="2" />
+                                        <span class="lt-mark lt-checkbox"></span>
+                                        <span class="lt-label">Check 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="checkbox" name="check_3" value="3" checked="checked" disabled />
+                                        <span class="lt-mark lt-checkbox"></span>
+                                        <span class="lt-label">Other(disabled)</span>
+                                    </label>
+                                </div>
+                            </div>
+            
+                            <div class="lt-box lt-grid-col-span-8">
+                                <pre class="prettyprint lang-basic linenums">
+                                    <label class="lt-input-toggle">
+                                        <input type="radio" name="gender" value="1" checked="checked" />
+                                        <span class="lt-mark lt-radio"></span>
+                                        <span class="lt-label">Select 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="radio" name="gender" value="2" />
+                                        <span class="lt-mark lt-radio"></span>
+                                        <span class="lt-label">Select 2</span>
+                                    </label>                              
+                                    <label class="lt-input-toggle">
+                                        <input type="radio" name="other" value="3" checked="checked" disabled />
+                                        <span class="lt-mark lt-radio"></span>
+                                        <span class="lt-label">Other(disabled)</span>
+                                    </label>
+                                </pre>
+                            </div>
+                            <div class="lt-box lt-grid-col-span-4">
+                                <div class="lt-toggle-group lt-vertical">
+                                    <label class="lt-input-toggle">
+                                        <input type="radio" name="gender" value="1" checked="checked" />
+                                        <span class="lt-mark lt-radio"></span>
+                                        <span class="lt-label">Select 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="radio" name="gender" value="2" />
+                                        <span class="lt-mark lt-radio"></span>
+                                        <span class="lt-label">Select 2</span>
+                                    </label>
+                                    <label class="lt-input-toggle">
+                                        <input type="radio" name="other" value="3" checked="checked" disabled />
+                                        <span class="lt-mark lt-radio"></span>
+                                        <span class="lt-label">Other(disabled)</span>
+                                    </label>
+                                </div>
+                            </div>
+            
+                            <div class="lt-box lt-grid-col-span-8">
+                                <pre class="prettyprint lang-basic linenums">
+                                    <label class="lt-input-toggle lt-toggle-switch">
+                                        <input type="checkbox" />
+                                        <span class="lt-mark lt-switch"></span>
+                                        <span class="lt-label">Switch 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle lt-toggle-switch">
+                                        <input type="checkbox" checked="checked" />
+                                        <span class="lt-mark lt-switch"></span>
+                                        <span class="lt-label">Switch 2</span>
+                                    </label>
+                                    <label class="lt-input-toggle lt-toggle-switch">
+                                        <input type="checkbox" disabled />
+                                        <span class="lt-mark lt-switch"></span>
+                                        <span class="lt-label">Switch 3(disabled)</span>
+                                    </label>                                
+                                </pre>
+                            </div>
+                            <div class="lt-box lt-grid-col-span-4">
+                                <div class="lt-toggle-group lt-vertical">
+                                    <label class="lt-input-toggle lt-toggle-switch">
+                                        <input type="checkbox" />
+                                        <span class="lt-mark lt-switch"></span>
+                                        <span class="lt-label">Switch 1</span>
+                                    </label>
+                                    <label class="lt-input-toggle lt-toggle-switch">
+                                        <input type="checkbox" checked="checked" />
+                                        <span class="lt-mark lt-switch"></span>
+                                        <span class="lt-label">Switch 2</span>
+                                    </label>
+                                    <label class="lt-input-toggle lt-toggle-switch">
+                                        <input type="checkbox" disabled />
+                                        <span class="lt-mark lt-switch"></span>
+                                        <span class="lt-label">Switch 3(disabled)</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </section>
+        </div>
+        <div class="lt-footer">
+            <div class="lt-block">
+                <div class="lt-cell">
+                    <p class="legal-copyright">&copy; 2016-2025 LightType. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

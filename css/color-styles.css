@@ -1,0 +1,387 @@
+.lt-style-1{background-color:#454545;color:#f0f0f0}
+.lt-style-1 .caption{background-color:#404040;color:#f0f0f0}
+.lt-style-1.lt-bordered{border-color:#434343}
+.lt-style-1.lt-bordered .caption{border-bottom-color:#383838;border-top-color:grey}
+.lt-style-1[class*=lt-arrow-top-]:after{border-bottom-color:#454545}
+.lt-style-1[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#434343}
+.lt-style-1[class*=lt-arrow-bottom-]:after{border-top-color:#454545}
+.lt-style-1[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#434343}
+.lt-style-1[class*=lt-arrow-left-]:after{border-right-color:#454545}
+.lt-style-1[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#434343}
+.lt-style-1[class*=lt-arrow-right-]:after{border-left-color:#454545}
+.lt-style-1[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#434343}
+.lt-style-2{background-color:#335d90;color:#f0f0f0}
+.lt-style-2 .caption{background-color:#2d578d;color:#f0f0f0}
+.lt-style-2.lt-bordered{border-color:#2e5991}
+.lt-style-2.lt-bordered .caption{border-bottom-color:#284b7b;border-top-color:#6591c3}
+.lt-style-2[class*=lt-arrow-top-]:after{border-bottom-color:#335d90}
+.lt-style-2[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#2e5991}
+.lt-style-2[class*=lt-arrow-bottom-]:after{border-top-color:#335d90}
+.lt-style-2[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#2e5991}
+.lt-style-2[class*=lt-arrow-left-]:after{border-right-color:#335d90}
+.lt-style-2[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#2e5991}
+.lt-style-2[class*=lt-arrow-right-]:after{border-left-color:#335d90}
+.lt-style-2[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#2e5991}
+.lt-style-2.lt-button{background-color:#3c6597;background-image:none;filter:none;box-shadow:inset 0 1px 1px #6591c3;border-color:#284b7b;color:#fff}
+.lt-style-2.lt-button:hover{background-color:#2d578d}
+.lt-style-2.lt-button.down,.lt-style-2.lt-button:active,.lt-style-2.lt-button:focus{box-shadow:inset 0 1px 3px rgba(0,0,0,.1)}
+.lt-style-3{background-color:#28739e;color:#f0f0f0}
+.lt-style-3 .caption{background-color:#2a6c97;color:#f0f0f0}
+.lt-style-3.lt-bordered{border-color:#2d6f99}
+.lt-style-3.lt-bordered .caption{border-bottom-color:#205c85;border-top-color:#4a97c4}
+.lt-style-3[class*=lt-arrow-top-]:after{border-bottom-color:#28739e}
+.lt-style-3[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#2d6f99}
+.lt-style-3[class*=lt-arrow-bottom-]:after{border-top-color:#28739e}
+.lt-style-3[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#2d6f99}
+.lt-style-3[class*=lt-arrow-left-]:after{border-right-color:#28739e}
+.lt-style-3[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#2d6f99}
+.lt-style-3[class*=lt-arrow-right-]:after{border-left-color:#28739e}
+.lt-style-3[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#2d6f99}
+.lt-style-4{background-color:#c75020;color:#f0f0f0}
+.lt-style-4 .caption{background-color:#c34c1a;color:#f0f0f0}
+.lt-style-4.lt-bordered{border-color:#c34c1a}
+.lt-style-4.lt-bordered .caption{border-bottom-color:#ac3f17;border-top-color:#e28266}
+.lt-style-4[class*=lt-arrow-top-]:after{border-bottom-color:#c75020}
+.lt-style-4[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#c34c1a}
+.lt-style-4[class*=lt-arrow-bottom-]:after{border-top-color:#c75020}
+.lt-style-4[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#c34c1a}
+.lt-style-4[class*=lt-arrow-left-]:after{border-right-color:#c75020}
+.lt-style-4[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#c34c1a}
+.lt-style-4[class*=lt-arrow-right-]:after{border-left-color:#c75020}
+.lt-style-4[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#c34c1a}
+.lt-style-5{background-color:#924039;color:#f0f0f0}
+.lt-style-5 .caption{background-color:#8d3933;color:#f0f0f0}
+.lt-style-5.lt-bordered{border-color:#8e3933}
+.lt-style-5.lt-bordered .caption{border-bottom-color:#79302c;border-top-color:#c76e66}
+.lt-style-5[class*=lt-arrow-top-]:after{border-bottom-color:#924039}
+.lt-style-5[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#8d3933}
+.lt-style-5[class*=lt-arrow-bottom-]:after{border-top-color:#924039}
+.lt-style-5[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#8d3933}
+.lt-style-5[class*=lt-arrow-left-]:after{border-right-color:#924039}
+.lt-style-5[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#8d3933}
+.lt-style-5[class*=lt-arrow-right-]:after{border-left-color:#924039}
+.lt-style-5[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#8d3933}
+.lt-style-6{background-color:#f9ab00;color:#fff}
+.lt-style-6 .caption{background-color:#fead00;color:#fff}
+.lt-style-6.lt-bordered{border-color:#ffb000}
+.lt-style-6.lt-bordered .caption{border-bottom-color:#e09300;border-top-color:#ffdd83}
+.lt-style-6[class*=lt-arrow-top-]:after{border-bottom-color:#f9ab00}
+.lt-style-6[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#ffb000}
+.lt-style-6[class*=lt-arrow-bottom-]:after{border-top-color:#f9ab00}
+.lt-style-6[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#ffb000}
+.lt-style-6[class*=lt-arrow-left-]:after{border-right-color:#f9ab00}
+.lt-style-6[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#ffb000}
+.lt-style-6[class*=lt-arrow-right-]:after{border-left-color:#f9ab00}
+.lt-style-6[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#ffb000}
+.lt-style-7{background-color:#619e16;color:#fff}
+.lt-style-7 .caption{background-color:#5b9612;color:#fff}
+.lt-style-7.lt-bordered{border-color:#5e9813}
+.lt-style-7.lt-bordered .caption{border-bottom-color:#4e8410;border-top-color:#95c561}
+.lt-style-7[class*=lt-arrow-top-]:after{border-bottom-color:#619e16}
+.lt-style-7[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#5e9813}
+.lt-style-7[class*=lt-arrow-bottom-]:after{border-top-color:#619e16}
+.lt-style-7[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#5e9813}
+.lt-style-7[class*=lt-arrow-left-]:after{border-right-color:#619e16}
+.lt-style-7[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#5e9813}
+.lt-style-7[class*=lt-arrow-right-]:after{border-left-color:#619e16}
+.lt-style-7[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#5e9813}
+.lt-style-8{background-color:#287009;color:#fff}
+.lt-style-8 .caption{background-color:#2d6b09;color:#fff}
+.lt-style-8.lt-bordered{border-color:#2e6c0a}
+.lt-style-8.lt-bordered .caption{border-bottom-color:#205a06;border-top-color:#4f9c21}
+.lt-style-8[class*=lt-arrow-top-]:after{border-bottom-color:#287009}
+.lt-style-8[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#2e6c0a}
+.lt-style-8[class*=lt-arrow-bottom-]:after{border-top-color:#287009}
+.lt-style-8[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#2e6c0a}
+.lt-style-8[class*=lt-arrow-left-]:after{border-right-color:#287009}
+.lt-style-8[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#2e6c0a}
+.lt-style-8[class*=lt-arrow-right-]:after{border-left-color:#287009}
+.lt-style-8[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#2e6c0a}
+.lt-style-9{background-color:#008469;color:#fff}
+.lt-style-9 .caption{background-color:#007e61;color:#fff}
+.lt-style-9.lt-bordered{border-color:#007f62}
+.lt-style-9.lt-bordered .caption{border-bottom-color:#006c54;border-top-color:#4da795}
+.lt-style-9[class*=lt-arrow-top-]:after{border-bottom-color:#008469}
+.lt-style-9[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#007f62}
+.lt-style-9[class*=lt-arrow-bottom-]:after{border-top-color:#008469}
+.lt-style-9[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#007f62}
+.lt-style-9[class*=lt-arrow-left-]:after{border-right-color:#008469}
+.lt-style-9[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#007f62}
+.lt-style-9[class*=lt-arrow-right-]:after{border-left-color:#008469}
+.lt-style-9[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#007f62}
+.lt-style-10{background-color:#825c45;color:#fff}
+.lt-style-10 .caption{background-color:#78533f;color:#fff}
+.lt-style-10.lt-bordered{border-color:#79543f}
+.lt-style-10.lt-bordered .caption{border-bottom-color:#6a4836;border-top-color:#ad7f64}
+.lt-style-10[class*=lt-arrow-top-]:after{border-bottom-color:#825c45}
+.lt-style-10[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#79543f}
+.lt-style-10[class*=lt-arrow-bottom-]:after{border-top-color:#825c45}
+.lt-style-10[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#79543f}
+.lt-style-10[class*=lt-arrow-left-]:after{border-right-color:#825c45}
+.lt-style-10[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#79543f}
+.lt-style-10[class*=lt-arrow-right-]:after{border-left-color:#825c45}
+.lt-style-10[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#79543f}
+.lt-style-11{background-color:#676767;color:#fff}
+.lt-style-11 .caption{background-color:#606060;color:#fff}
+.lt-style-11.lt-bordered{border-color:#606060}
+.lt-style-11.lt-bordered .caption{border-bottom-color:#525252;border-top-color:#8b8b8b}
+.lt-style-11[class*=lt-arrow-top-]:after{border-bottom-color:#676767}
+.lt-style-11[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#606060}
+.lt-style-11[class*=lt-arrow-bottom-]:after{border-top-color:#676767}
+.lt-style-11[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#606060}
+.lt-style-11[class*=lt-arrow-left-]:after{border-right-color:#676767}
+.lt-style-11[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#606060}
+.lt-style-11[class*=lt-arrow-right-]:after{border-left-color:#676767}
+.lt-style-11[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#606060}
+.lt-style-12{background-color:#655897;color:#fff}
+.lt-style-12 .caption{background-color:#5f5193;color:#fff}
+.lt-style-12.lt-bordered{border-color:#5f5194}
+.lt-style-12.lt-bordered .caption{border-bottom-color:#50447e;border-top-color:#9689c5}
+.lt-style-12[class*=lt-arrow-top-]:after{border-bottom-color:#655897}
+.lt-style-12[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#5f5194}
+.lt-style-12[class*=lt-arrow-bottom-]:after{border-top-color:#655897}
+.lt-style-12[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#5f5194}
+.lt-style-12[class*=lt-arrow-left-]:after{border-right-color:#655897}
+.lt-style-12[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#5f5194}
+.lt-style-12[class*=lt-arrow-right-]:after{border-left-color:#655897}
+.lt-style-12[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#5f5194}
+.lt-style-13{background-color:#008ace;color:#fff}
+.lt-style-13 .caption{background-color:#0084cd;color:#fff}
+.lt-style-13.lt-bordered{border-color:#0084ce}
+.lt-style-13.lt-bordered .caption{border-bottom-color:#0071b3;border-top-color:#46b2e5}
+.lt-style-13[class*=lt-arrow-top-]:after{border-bottom-color:#008ace}
+.lt-style-13[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#0084ce}
+.lt-style-13[class*=lt-arrow-bottom-]:after{border-top-color:#008ace}
+.lt-style-13[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#0084ce}
+.lt-style-13[class*=lt-arrow-left-]:after{border-right-color:#008ace}
+.lt-style-13[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#0084ce}
+.lt-style-13[class*=lt-arrow-right-]:after{border-left-color:#008ace}
+.lt-style-13[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#0084ce}
+.lt-style-14{background-color:#b91d36;color:#fff}
+.lt-style-14 .caption{background-color:#b5192f;color:#fff}
+.lt-style-14.lt-bordered{border-color:#b7192f}
+.lt-style-14.lt-bordered .caption{border-bottom-color:#9d1628;border-top-color:#e96e82}
+.lt-style-14[class*=lt-arrow-top-]:after{border-bottom-color:#b91d36}
+.lt-style-14[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#b7192f}
+.lt-style-14[class*=lt-arrow-bottom-]:after{border-top-color:#b91d36}
+.lt-style-14[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#b7192f}
+.lt-style-14[class*=lt-arrow-left-]:after{border-right-color:#b91d36}
+.lt-style-14[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#b7192f}
+.lt-style-14[class*=lt-arrow-right-]:after{border-left-color:#b91d36}
+.lt-style-14[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#b7192f}
+.lt-style-15{background-color:#933162;color:#fff}
+.lt-style-15 .caption{background-color:#8c2b59;color:#fff}
+.lt-style-15.lt-bordered{border-color:#8d2b5a}
+.lt-style-15.lt-bordered .caption{border-bottom-color:#79254d;border-top-color:#c76295}
+.lt-style-15[class*=lt-arrow-top-]:after{border-bottom-color:#933162}
+.lt-style-15[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#8d2b5a}
+.lt-style-15[class*=lt-arrow-bottom-]:after{border-top-color:#933162}
+.lt-style-15[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#8d2b5a}
+.lt-style-15[class*=lt-arrow-left-]:after{border-right-color:#933162}
+.lt-style-15[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#8d2b5a}
+.lt-style-15[class*=lt-arrow-right-]:after{border-left-color:#933162}
+.lt-style-15[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#8d2b5a}
+.lt-style-16{background-color:#ce2222;color:#fff}
+.lt-style-16 .caption{background-color:#cc1f1f;color:#fff}
+.lt-style-16.lt-bordered{border-color:#cd1f1f}
+.lt-style-16.lt-bordered .caption{border-bottom-color:#b31a1a;border-top-color:#ff7070}
+.lt-style-16[class*=lt-arrow-top-]:after{border-bottom-color:#ce2222}
+.lt-style-16[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#cd1f1f}
+.lt-style-16[class*=lt-arrow-bottom-]:after{border-top-color:#ce2222}
+.lt-style-16[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#cd1f1f}
+.lt-style-16[class*=lt-arrow-left-]:after{border-right-color:#ce2222}
+.lt-style-16[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#cd1f1f}
+.lt-style-16[class*=lt-arrow-right-]:after{border-left-color:#ce2222}
+.lt-style-16[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#cd1f1f}
+.lt-style-17{background-color:#ffdc91;color:#6a4836}
+.lt-style-17 .caption{background-color:#ffd889;color:#6a4836}
+.lt-style-17.lt-bordered{border-color:#f1ba56}
+.lt-style-17.lt-bordered .caption{border-bottom-color:#f3c362;border-top-color:#fff3da}
+.lt-style-17[class*=lt-arrow-top-]:after{border-bottom-color:#ffdc91}
+.lt-style-17[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#f1ba56}
+.lt-style-17[class*=lt-arrow-bottom-]:after{border-top-color:#ffdc91}
+.lt-style-17[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#f1ba56}
+.lt-style-17[class*=lt-arrow-left-]:after{border-right-color:#ffdc91}
+.lt-style-17[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#f1ba56}
+.lt-style-17[class*=lt-arrow-right-]:after{border-left-color:#ffdc91}
+.lt-style-17[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#f1ba56}
+.lt-style-18{background-color:#ffedb7;color:#6a4836}
+.lt-style-18 .caption{background-color:#ffebb0;color:#6a4836}
+.lt-style-18.lt-bordered{border-color:#eece79}
+.lt-style-18.lt-bordered .caption{border-bottom-color:#f1d586;border-top-color:#fff}
+.lt-style-18[class*=lt-arrow-top-]:after{border-bottom-color:#ffedb7}
+.lt-style-18[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#eece79}
+.lt-style-18[class*=lt-arrow-bottom-]:after{border-top-color:#ffedb7}
+.lt-style-18[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#eece79}
+.lt-style-18[class*=lt-arrow-left-]:after{border-right-color:#ffedb7}
+.lt-style-18[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#eece79}
+.lt-style-18[class*=lt-arrow-right-]:after{border-left-color:#ffedb7}
+.lt-style-18[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#eece79}
+.lt-style-19{background-color:#ddd;color:#000}
+.lt-style-19 .caption{background-color:#d9d9d9;color:#000}
+.lt-style-19.lt-bordered{border-color:#c2c2c2}
+.lt-style-19.lt-bordered .caption{border-bottom-color:#cacaca;border-top-color:#f7f7f7}
+.lt-style-19[class*=lt-arrow-top-]:after{border-bottom-color:#ddd}
+.lt-style-19[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#c2c2c2}
+.lt-style-19[class*=lt-arrow-bottom-]:after{border-top-color:#ddd}
+.lt-style-19[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#c2c2c2}
+.lt-style-19[class*=lt-arrow-left-]:after{border-right-color:#ddd}
+.lt-style-19[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#c2c2c2}
+.lt-style-19[class*=lt-arrow-right-]:after{border-left-color:#ddd}
+.lt-style-19[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#c2c2c2}
+.lt-style-20{background-color:#ececec;color:#000}
+.lt-style-20 .caption{background-color:#ebebeb;color:#000}
+.lt-style-20.lt-bordered{border-color:#cecece}
+.lt-style-20.lt-bordered .caption{border-bottom-color:#d5d5d5;border-top-color:#fff}
+.lt-style-20[class*=lt-arrow-top-]:after{border-bottom-color:#ececec}
+.lt-style-20[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#cecece}
+.lt-style-20[class*=lt-arrow-bottom-]:after{border-top-color:#ececec}
+.lt-style-20[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#cecece}
+.lt-style-20[class*=lt-arrow-left-]:after{border-right-color:#ececec}
+.lt-style-20[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#cecece}
+.lt-style-20[class*=lt-arrow-right-]:after{border-left-color:#ececec}
+.lt-style-20[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#cecece}
+.lt-style-21{background-color:#fffae8;color:#000}
+.lt-style-21 .caption{background-color:#fff4d5;color:#000}
+.lt-style-21.lt-bordered{border-color:#ffda8a}
+.lt-style-21.lt-bordered .caption{border-bottom-color:#ffda8a;border-top-color:#fff}
+.lt-style-21[class*=lt-arrow-top-]:after{border-bottom-color:#fffae8}
+.lt-style-21[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#ffda8a}
+.lt-style-21[class*=lt-arrow-bottom-]:after{border-top-color:#fffae8}
+.lt-style-21[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#ffda8a}
+.lt-style-21[class*=lt-arrow-left-]:after{border-right-color:#fffae8}
+.lt-style-21[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#ffda8a}
+.lt-style-21[class*=lt-arrow-right-]:after{border-left-color:#fffae8}
+.lt-style-21[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#ffda8a}
+.lt-style-22{background-color:#fff1e0;color:#000}
+.lt-style-22 .caption{background-color:#ffe8ce;color:#000}
+.lt-style-22.lt-bordered{border-color:#ffc586}
+.lt-style-22.lt-bordered .caption{border-bottom-color:#ffc586;border-top-color:#fff}
+.lt-style-22[class*=lt-arrow-top-]:after{border-bottom-color:#fff1e0}
+.lt-style-22[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#ffc586}
+.lt-style-22[class*=lt-arrow-bottom-]:after{border-top-color:#fff1e0}
+.lt-style-22[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#ffc586}
+.lt-style-22[class*=lt-arrow-left-]:after{border-right-color:#fff1e0}
+.lt-style-22[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#ffc586}
+.lt-style-22[class*=lt-arrow-right-]:after{border-left-color:#fff1e0}
+.lt-style-22[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#ffc586}
+.lt-style-23{background-color:#fdf1f1;color:#000}
+.lt-style-23 .caption{background-color:#fce4e4;color:#000}
+.lt-style-23.lt-bordered{border-color:#f8b1b1}
+.lt-style-23.lt-bordered .caption{border-bottom-color:#f8b1b1;border-top-color:#fff}
+.lt-style-23[class*=lt-arrow-top-]:after{border-bottom-color:#fdf1f1}
+.lt-style-23[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#f8b1b1}
+.lt-style-23[class*=lt-arrow-bottom-]:after{border-top-color:#fdf1f1}
+.lt-style-23[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#f8b1b1}
+.lt-style-23[class*=lt-arrow-left-]:after{border-right-color:#fdf1f1}
+.lt-style-23[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#f8b1b1}
+.lt-style-23[class*=lt-arrow-right-]:after{border-left-color:#fdf1f1}
+.lt-style-23[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#f8b1b1}
+.lt-style-24{background-color:#f4fae8;color:#000}
+.lt-style-24 .caption{background-color:#eaf4d5;color:#000}
+.lt-style-24.lt-bordered{border-color:#c0da89}
+.lt-style-24.lt-bordered .caption{border-bottom-color:#c0da89;border-top-color:#fff}
+.lt-style-24[class*=lt-arrow-top-]:after{border-bottom-color:#f4fae8}
+.lt-style-24[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#c0da89}
+.lt-style-24[class*=lt-arrow-bottom-]:after{border-top-color:#f4fae8}
+.lt-style-24[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#c0da89}
+.lt-style-24[class*=lt-arrow-left-]:after{border-right-color:#f4fae8}
+.lt-style-24[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#c0da89}
+.lt-style-24[class*=lt-arrow-right-]:after{border-left-color:#f4fae8}
+.lt-style-24[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#c0da89}
+.lt-style-25{background-color:#eef7fb;color:#000}
+.lt-style-25 .caption{background-color:#dbeef7;color:#000}
+.lt-style-25.lt-bordered{border-color:#91c9e5}
+.lt-style-25.lt-bordered .caption{border-bottom-color:#91c9e5;border-top-color:#fff}
+.lt-style-25[class*=lt-arrow-top-]:after{border-bottom-color:#eef7fb}
+.lt-style-25[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#91c9e5}
+.lt-style-25[class*=lt-arrow-bottom-]:after{border-top-color:#eef7fb}
+.lt-style-25[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#91c9e5}
+.lt-style-25[class*=lt-arrow-left-]:after{border-right-color:#eef7fb}
+.lt-style-25[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#91c9e5}
+.lt-style-25[class*=lt-arrow-right-]:after{border-left-color:#eef7fb}
+.lt-style-25[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#91c9e5}
+.lt-style-26{background-color:#f6f6f6;color:#000}
+.lt-style-26 .caption{background-color:#eee;color:#000}
+.lt-style-26.lt-bordered{border-color:#ccc;border-width:4px}
+.lt-style-26.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-26[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-26[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#ccc;border-width:13px;margin-left:-13px}
+.lt-style-26[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-26[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#ccc;border-width:13px;margin-left:-13px}
+.lt-style-26[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-26[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#ccc;border-width:13px;margin-top:-13px}
+.lt-style-26[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-26[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#ccc;border-width:13px;margin-top:-13px}
+.lt-style-27{background-color:#f6f6f6;color:#000}
+.lt-style-27 .caption{background-color:#eee;color:#000}
+.lt-style-27.lt-bordered{border-color:#ffca7f;border-width:4px}
+.lt-style-27.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-27[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-27[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#ffca7f;border-width:13px;margin-left:-13px}
+.lt-style-27[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-27[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#ffca7f;border-width:13px;margin-left:-13px}
+.lt-style-27[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-27[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#ffca7f;border-width:13px;margin-top:-13px}
+.lt-style-27[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-27[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#ffca7f;border-width:13px;margin-top:-13px}
+.lt-style-28{background-color:#f6f6f6;color:#000}
+.lt-style-28 .caption{background-color:#eee;color:#000}
+.lt-style-28.lt-bordered{border-color:#e99;border-width:4px}
+.lt-style-28.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-28[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-28[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#e99;border-width:13px;margin-left:-13px}
+.lt-style-28[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-28[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#e99;border-width:13px;margin-left:-13px}
+.lt-style-28[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-28[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#e99;border-width:13px;margin-top:-13px}
+.lt-style-28[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-28[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#e99;border-width:13px;margin-top:-13px}
+.lt-style-29{background-color:#f6f6f6;color:#000}
+.lt-style-29 .caption{background-color:#eee;color:#000}
+.lt-style-29.lt-bordered{border-color:#b7d299;border-width:4px}
+.lt-style-29.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-29[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-29[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#b7d299;border-width:13px;margin-left:-13px}
+.lt-style-29[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-29[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#b7d299;border-width:13px;margin-left:-13px}
+.lt-style-29[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-29[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#b7d299;border-width:13px;margin-top:-13px}
+.lt-style-29[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-29[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#b7d299;border-width:13px;margin-top:-13px}
+.lt-style-30{background-color:#f6f6f6;color:#000}
+.lt-style-30 .caption{background-color:#eee;color:#000}
+.lt-style-30.lt-bordered{border-color:#99c9df;border-width:4px}
+.lt-style-30.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-30[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-30[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#99c9df;border-width:13px;margin-left:-13px}
+.lt-style-30[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-30[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#99c9df;border-width:13px;margin-left:-13px}
+.lt-style-30[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-30[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#99c9df;border-width:13px;margin-top:-13px}
+.lt-style-30[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-30[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#99c9df;border-width:13px;margin-top:-13px}
+.lt-style-31{background-color:#f6f6f6;color:#000}
+.lt-style-31 .caption{background-color:#eee;color:#000}
+.lt-style-31.lt-bordered{border-color:#666;border-width:4px}
+.lt-style-31.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-31[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-31[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#666;border-width:13px;margin-left:-13px}
+.lt-style-31[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-31[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#666;border-width:13px;margin-left:-13px}
+.lt-style-31[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-31[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#666;border-width:13px;margin-top:-13px}
+.lt-style-31[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-31[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#666;border-width:13px;margin-top:-13px}
+.lt-style-32{background-color:#f6f6f6;color:#000}
+.lt-style-32 .caption{background-color:#eee;color:#000}
+.lt-style-32.lt-bordered{border-color:#5f5194;border-width:4px}
+.lt-style-32.lt-bordered .caption{border-bottom-color:#ccc;border-top-color:#fff}
+.lt-style-32[class*=lt-arrow-top-]:after{border-bottom-color:#f6f6f6}
+.lt-style-32[class*=lt-arrow-top-].lt-bordered:before{border-bottom-color:#5f5194;border-width:13px;margin-left:-13px}
+.lt-style-32[class*=lt-arrow-bottom-]:after{border-top-color:#f6f6f6}
+.lt-style-32[class*=lt-arrow-bottom-].lt-bordered:before{border-top-color:#5f5194;border-width:13px;margin-left:-13px}
+.lt-style-32[class*=lt-arrow-left-]:after{border-right-color:#f6f6f6}
+.lt-style-32[class*=lt-arrow-left-].lt-bordered:before{border-right-color:#5f5194;border-width:13px;margin-top:-13px}
+.lt-style-32[class*=lt-arrow-right-]:after{border-left-color:#f6f6f6}
+.lt-style-32[class*=lt-arrow-right-].lt-bordered:before{border-left-color:#5f5194;border-width:13px;margin-top:-13px}
