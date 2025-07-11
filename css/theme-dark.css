@@ -1,69 +1,69 @@
 [data-theme="dark"] {
- /* Цветовая палитра */
-/* Темная тема */
---lt-color-text: #D1D7E0; /* Светлый текст на тёмном фоне */
---lt-color-text-light: #343A40; /* Текст на светлом фоне (если нужен в тёмной теме) */
+  /* Цветовая палитра */
+  /* Темная тема */
+  --lt-color-text: #d1d7e0; /* Светлый текст на тёмном фоне */
+  --lt-color-text-light: #343a40; /* Текст на светлом фоне (если нужен в тёмной теме) */
 
---lt-color-link: #7aa5ff; /* Светло-синий для ссылок */
---lt-color-link-hover: #a6c4ff; /* При наведении — чуть светлее */
---lt-color-link-active: #a6c4ff;
---lt-color-link-visited: #7aa5ff;
+  --lt-color-link: #7aa5ff; /* Светло-синий для ссылок */
+  --lt-color-link-hover: #a6c4ff; /* При наведении — чуть светлее */
+  --lt-color-link-active: #a6c4ff;
+  --lt-color-link-visited: #7aa5ff;
 
---lt-color-primary: #3b82f6;
---lt-color-secondary: #4ab5e2;
---lt-color-danger: #ff784e;
---lt-color-success: #4ade80;
---lt-color-warning: #fbbf24;
---lt-color-error: #f87171;
+  --lt-color-primary: #3b82f6;
+  --lt-color-secondary: #4ab5e2;
+  --lt-color-danger: #ff784e;
+  --lt-color-success: #4ade80;
+  --lt-color-warning: #fbbf24;
+  --lt-color-error: #f87171;
 
---lt-color-bg0: #151B23;
---lt-color-bg1: #212830; /* Основной фон */
---lt-color-bg2: #2a3039;
---lt-color-bg3: #333941;
---lt-color-bg4: #3c424b;
---lt-color-bg5: #2f3a2e; /* Оттенок зелёного — для успеха/инфо */
---lt-color-bg6: #444b55;
---lt-color-bg7: #3a4048;
---lt-color-bg8: #374134;
+  --lt-color-bg0: #151b23;
+  --lt-color-bg1: #212830; /* Основной фон */
+  --lt-color-bg2: #2a3039;
+  --lt-color-bg3: #333941;
+  --lt-color-bg4: #3c424b;
+  --lt-color-bg5: #2f3a2e; /* Оттенок зелёного — для успеха/инфо */
+  --lt-color-bg6: #444b55;
+  --lt-color-bg7: #3a4048;
+  --lt-color-bg8: #374134;
 
---lt-color-border1: #2f3540;
---lt-color-border2: #3c444f;
---lt-color-border3: #49525d;
+  --lt-color-border1: #2f3540;
+  --lt-color-border2: #3c444f;
+  --lt-color-border3: #49525d;
 
---lt-color-grad-100: #2a3036;
---lt-color-grad-150: #32383e;
---lt-color-grad-200: #3a4046;
---lt-color-grad-250: #42484e;
---lt-color-grad-300: #4a5056;
---lt-color-grad-400: #5a6066;
---lt-color-grad-500: #6a7076;
---lt-color-grad-600: #7a8086;
---lt-color-grad-700: #b0b4b9;
---lt-color-grad-800: #d1d5db;
---lt-color-grad-900: #f1f5f9;
+  --lt-color-grad-100: #2a3036;
+  --lt-color-grad-150: #32383e;
+  --lt-color-grad-200: #3a4046;
+  --lt-color-grad-250: #42484e;
+  --lt-color-grad-300: #4a5056;
+  --lt-color-grad-400: #5a6066;
+  --lt-color-grad-500: #6a7076;
+  --lt-color-grad-600: #7a8086;
+  --lt-color-grad-700: #b0b4b9;
+  --lt-color-grad-800: #d1d5db;
+  --lt-color-grad-900: #f1f5f9;
 
---lt-hover-bg: #2e3a4d;
---lt-hover-border: #3d4a5c;
---lt-hover-color: #ffffff;
---lt-hover-nth-bg: #3a475b;
---lt-hover-nth-border: #4a586c;
+  --lt-hover-bg: #2e3a4d;
+  --lt-hover-border: #3d4a5c;
+  --lt-hover-color: #ffffff;
+  --lt-hover-nth-bg: #3a475b;
+  --lt-hover-nth-border: #4a586c;
 
+  /* Типографика */
+  --lt-font-family-base: Poppins, OpenSans, "Helvetica Neue", Helvetica,
+    sans-serif;
+  --lt-font-family-console: Consolas, "Lucida Console", "Andale Mono",
+    "Bitstream Vera Sans Mono", "Courier New", Courier;
+  --lt-font-size-base: 1.35em;
+  --lt-font-weight-tiny: 200;
+  --lt-font-weight-normal: 300;
+  --lt-font-weight-medium: 400;
+  --lt-font-weight-bold: 600;
+  --lt-line-height-base: 1.2;
 
- /* Типографика */
- --lt-font-family-base: Poppins,OpenSans,'Helvetica Neue',Helvetica,sans-serif;
- --lt-font-family-console: Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier;
- --lt-font-size-base: 1.35em;
- --lt-font-weight-tiny: 200;
- --lt-font-weight-normal: 300;
- --lt-font-weight-medium: 400;
- --lt-font-weight-bold: 600;
- --lt-line-height-base: 1.2;
+  --lt-scroll-track: #151b23;
+  --lt-scroll-thumb: #2a3039;
+  --lt-scroll-thumb-hover: #2e3a4d;
 
- --lt-scroll-track: #151B23;
- --lt-scroll-thumb: #2a3039;
- --lt-scroll-thumb-hover: #2e3a4d;
-
- --lt-scroll-up-icon: url("data:image/svg+xml;utf8,<svg fill='lightgray' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 14l5-5 5 5z'/></svg>");
- --lt-scroll-down-icon: url("data:image/svg+xml;utf8,<svg fill='lightgray' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 10l5 5 5-5z'/></svg>");
+  --lt-scroll-up-icon: url("data:image/svg+xml;utf8,<svg fill='lightgray' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 14l5-5 5 5z'/></svg>");
+  --lt-scroll-down-icon: url("data:image/svg+xml;utf8,<svg fill='lightgray' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M7 10l5 5 5-5z'/></svg>");
 }
-
