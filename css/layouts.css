@@ -182,14 +182,14 @@ body,html{height:100%;min-height:100%}
 .lt-table.zebra tbody tr:nth-child(2n) td.nth{background-color:var(--lt-color-grad-100)}
 .lt-table.lt-no-row-border td,.lt-table.lt-no-row-border th{border-top:none;border-bottom:none}
 .lt-table.lt-no-col-border td,.lt-table.lt-no-col-border th{border-left:none;border-right:none}
-.lt-table tbody tr:hover{background-color:var(--lt-hover-bg)!important;color:var(--lt-hover-color)}
-.lt-table tbody tr:hover td,.lt-table tbody tr:hover th{border-color:var(--lt-hover-border)}
-.lt-table.lt-no-row-border tbody tr:hover td,.lt-table.lt-no-row-border tbody tr:hover th{border-top-color:transparent;border-bottom-color:transparent;border-left-color:var(--lt-hover-border);border-right-color:var(--lt-hover-border)}
-.lt-table.lt-no-col-border tbody tr:hover td,.lt-table.lt-no-col-border tbody tr:hover th{border-left-color:transparent;border-right-color:transparent;border-top-color:var(--lt-hover-border);border-bottom-color:var(--lt-hover-border)}
-.lt-table.lt-no-col-border.lt-no-row-border tbody tr:hover td,.lt-table.lt-no-col-border.lt-no-row-border tbody tr:hover th{border-color:transparent}
-.lt-table tbody tr:hover .nth{background-color:var(--lt-hover-nth-bg)!important;border-color:var(--lt-hover-nth-border)!important}
-.lt-table.lt-no-row-border tbody tr:hover .nth{border-top-color:transparent;border-bottom-color:transparent}
-.lt-table.lt-no-col-border tbody tr:hover .nth{border-left-color:transparent;border-right-color:transparent}
+.lt-table.hover tbody tr:hover{background-color:var(--lt-hover-bg)!important;color:var(--lt-hover-color)}
+.lt-table.hover tbody tr:hover td,.lt-table tbody tr:hover th{border-color:var(--lt-hover-border)}
+.lt-table.hover.lt-no-row-border tbody tr:hover td,.lt-table.lt-no-row-border tbody tr:hover th{border-top-color:transparent;border-bottom-color:transparent;border-left-color:var(--lt-hover-border);border-right-color:var(--lt-hover-border)}
+.lt-table.hover.lt-no-col-border tbody tr:hover td,.lt-table.lt-no-col-border tbody tr:hover th{border-left-color:transparent;border-right-color:transparent;border-top-color:var(--lt-hover-border);border-bottom-color:var(--lt-hover-border)}
+.lt-table.hover.lt-no-col-border.lt-no-row-border tbody tr:hover td,.lt-table.lt-no-col-border.lt-no-row-border tbody tr:hover th{border-color:transparent}
+.lt-table.hover tbody tr:hover .nth{background-color:var(--lt-hover-nth-bg)!important;border-color:var(--lt-hover-nth-border)!important}
+.lt-table.hover.lt-no-row-border tbody tr:hover .nth{border-top-color:transparent;border-bottom-color:transparent}
+.lt-table.hover.lt-no-col-border tbody tr:hover .nth{border-left-color:transparent;border-right-color:transparent}
 .lt-table.lt-no-row-border.lt-no-col-border tbody tr:hover .nth{border-color:transparent}
 .lt-table.clear,.lt-table.clear td,.lt-table.clear th{background-color:transparent}
 .lt-table .lt-c,.lt-table .lt-r{float:none}

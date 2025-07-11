@@ -28,4 +28,4 @@
 [class*='lt-arrow-right-'].lt-bordered:before{ border-left-color :var(--lt-color-grad-250); }
 .lt-tooltip .wrapper{ height :100%; padding-left :42px; margin :0 auto; position :relative; }
 .lt-tooltip .wrapper .caption {display:none}
-.lt-tooltip [class*='lt-icon-']{ position :absolute; left :0; top :0; }
+/* .lt-tooltip [class*='lt-icon-']{ position :absolute; left :0; top :0; } */
