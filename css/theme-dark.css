@@ -49,10 +49,8 @@
   --lt-hover-nth-border: #4a586c;
 
   /* Типографика */
-  --lt-font-family-base: Poppins, OpenSans, "Helvetica Neue", Helvetica,
-    sans-serif;
-  --lt-font-family-console: Consolas, "Lucida Console", "Andale Mono",
-    "Bitstream Vera Sans Mono", "Courier New", Courier;
+  --lt-font-family-base: Poppins, OpenSans, "Helvetica Neue", Helvetica, sans-serif;
+  --lt-font-family-console: Consolas, "Lucida Console", "Andale Mono","Bitstream Vera Sans Mono", "Courier New", Courier;
   --lt-font-size-base: 1.35em;
   --lt-font-weight-tiny: 200;
   --lt-font-weight-normal: 300;
